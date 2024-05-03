@@ -1,0 +1,131 @@
+---
+title: "Kwartaalrapportage glastuinbouw"
+subtitle: "Q1 2024"
+date: today
+author: "HHSK - Johan van Tent"
+image: "images/logo_website.png"
+embed-resources: true
+format:
+  html: 
+    image: "images/logo_website.png"
+  # revealjs:
+  #   # logo: "images/logo_website.png"
+  #   logo: "images/hhsk750.jpg"
+  #   # multiplex: true
+  #   fig-format: svg
+  #   progress: true
+  #   # mouse-wheel: true
+  #   theme: [default, css/custom.scss]
+  #   touch: true
+  #   smaller: true
+  #   auto-stretch: false
+execute:
+  echo: false
+  warning: false
+lang: nl
+
+# format: 
+#   docx:
+#     reference-doc: "hhsk_stijl_quarto.docx"
+---
+
+```{r code}
+#| file: "R/CODE_glastuinbouw_Q1_2024.R"
+#| include: false
+#| cache: false
+```
+
+::: {.panel-tabset .column-body-outset}
+# Gewasbeschermingsmiddelen
+
+### Beschrijving gewasbeschermingsmiddelen
+
+-   Twee opvallende normoverschrijdende stoffen zijn piperonyl-butoxide (843x en 87x) en spiromesifen (64x).
+
+-   In 2024 is er een nieuw meetpakket beschikbaar gekomen met lagere detectiegrenzen. Er zijn 3 extra monsters in februari waar dit meetpakket is gebruikt. Dit pakket is relatief klein (96 stoffen) maar door de lagere detectiegrenzen is de trefkans voor sommige stoffen groter.
+
+-   Er zijn een paar dingen die opvallen met het nieuwe pakket. Op alle 3 de meetlocaties zijn de stoffen fipronil en piperonylbutoxide in normoverschrijdende concentraties aanwezig. Pyriproxyfen is op 2 van de 3 locaties normoverschrijdend aanwezig. Dat deze stoffen nu bij de eerste keer op meerdere plekken de norm overschrijden suggereert dat deze stoffen de norm regelmatig overschrijden, maar dat dat tot nu toe buiten beeld is gebleven.
+
+-   Het aantal verschillende stoffen dat de norm overschrijdt is in Q1 van 2024 het hoogste in een kwartaal sinds 2021. Dit komt mede door het gebruik van het nieuwe pakket.
+
+::: aside
+Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/).
+:::
+
+### GBM - Overzichtstabel {.scrollable .smaller}
+
+```{r tabel-overschrijdingen}
+
+
+gt::gt(tabel) %>% gt::cols_align(align = "right", columns = c(2:7)) %>% 
+  gt::fmt_percent(columns = 6:7, decimals = 1) %>% 
+  gt::sub_missing()
+
+```
+
+### GBM - Individuele metingen {.scrollable .smaller}
+
+```{r tabel-overschrijdingen-meetwaarden}
+tabel_meetwaarden
+  
+```
+
+### GBM - Acute toxiciteit
+
+```{r}
+plot_mspaf_acuut
+```
+
+### GBM - Chronische toxiciteit
+
+```{r}
+plot_mspaf_chronisch
+```
+
+### GBM - Percentage boven de norm
+
+```{r plot-perc-norm}
+print(plot_perc_norm)
+
+```
+
+### GBM - Aantal stoffen boven de norm
+
+```{r plot-aantal-norm}
+print(plot_aantal_norm)
+
+```
+
+### GBM - Overschrijdingsfactoren
+
+```{r plot-sno}
+print(plot_sno)
+
+```
+
+### GBM - Aantal stoffen per monster
+
+```{r plot-monster}
+print(plot_monster)
+
+```
+
+# Fosfaat en stikstof
+
+### Beschrijving nutriënten
+
+-   De stikstofconcentraties in het glastuinbouwgebied nam aan het eind van Q1 weer toe.
+-   De fosfaatconcentratie nam aan het begin van 2024 weer toe. Een positieve ontwikkeling is dat er de laatste jaren een duidelijker seizoenspatroon is te zien. Dat betekent dat de fosfaatconcentratie minder wordt beïnvloed door directe emissies.
+
+### Stikstof
+
+```{r plot-n}
+print(n_plot)
+```
+
+### Fosfaat
+
+```{r plot-p}
+print(p_plot)
+```
+:::

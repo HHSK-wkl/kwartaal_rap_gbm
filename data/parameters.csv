@@ -1,0 +1,809 @@
+parnr;par;parnaamlang;cluster;eenheid;wns;aquo_parcode;aquo_eenheid;aquo_hoedanigheid;aquo_compartiment;casnr;aquo_typering;aquo_grootheid
+1;Cl;Chloride;Algemeen;mg/l;WNS2261;Cl;mg/l;NVT;OW;16887-00-6;;CONCTTE
+2;PO4;Fosfaat [Ortho-fosfaat];Algemeen;mg P/l;WNS2363;PO4;mg/l;P;OW; ;;CONCTTE
+3;Ptot;Fosfor totaal;Algemeen;mg P/l;WNS2354;Ptot;mg/l;P;OW; ;;CONCTTE
+4;NH4;Ammonium;Algemeen;mg N/l;WNS2336;NH4;mg/l;N;OW;14798-03-9;;CONCTTE
+5;NKj;Stikstof Kjeldahl;Algemeen;mg N/l;WNS2323;NKj;mg/l;N;OW; ;;CONCTTE
+6;sNO3NO2;Som nitraat en nitriet;Algemeen;mg N/l;WNS1745;sNO3NO2;mg/l;N;OW; ;;CONCTTE
+7;Ntot;Stikstof totaal;Algemeen;mg N/l;WNS2333;Ntot;mg/l;N;OW; ;;CONCTTE
+8;SO4;Sulfaat;Algemeen;mg/l;WNS1836;SO4;mg/l;NVT;OW;14808-79-8;;CONCTTE
+9;GELDHD;Geleidendheid bij 25oC;Algemeen;mS/m;WNS3390; ;mS/m;25oC;OW; ;;GELDHD
+10;O2;Zuurstof;Algemeen;mg/l;WNS1436;O2;mg/l;NVT;OW; ;;CONCTTE
+11;O2 %;Zuurstofverzadingspercentage;Algemeen;%;WNS2352;O2;%;NVT;OW; ;;VERZDGGD
+12;pH;Zuurgraad;Algemeen;DIMSLS;WNS1588; ;DIMSLS;NVT;OW; ;;pH
+13;T;Temperatuur;Algemeen;oC;WNS1923; ;oC;NVT;OW; ;;T
+14;ZICHT;Doorzicht;Algemeen;m;WNS7384; ;m;NVT;OW; ;;ZICHT
+15;CHLFa;Chlorofyl-a;Algemeen;ug/l;WNS2260;CHLFa;ug/l;NVT;OW;479-61-8;;CONCTTE
+16;FEOa;Feofytine a;Algemeen;ug/l;WNS2702;FEOa;ug/l;NVT;OW; ;;CONCTTE
+17;OS;Onopgeloste stoffen;Algemeen;mg/l;WNS2440;OS;mg/l;NVT;OW; ;;CONCTTE
+18;GR;Gloeirest van zwevend stof;Algemeen;%;WNS7385;GR;%;dg;OW; ;;MASSFTE
+19;BZV5a;Biochemisch zuurstofverbruik in 5 dagen met allylthioureum;Algemeen;mg/l;WNS2864;BZV5a;mg/l;O2;OW; ;;CONCTTE
+20;CZV;Chemisch zuurstofverbruik;Algemeen;mg/l;WNS2272;CZV;mg/l;O2;OW; ;;CONCTTE
+21;CZV nf;Chemisch zuurstofverbruik na filtratie;Algemeen;mg/l;WNS2681;CZV;mg/l;O2nf;OW; ;;CONCTTE
+22;Corg;Totaal organisch koolstof;Algemeen;mg/l;WNS7894;Corg;mg/l;C;OW; ;;CONCTTE
+23;Corg nf;Opgelost organisch koolstof;Algemeen;mg/l;WNS2754;Corg;mg/l;Cnf;OW; ;;CONCTTE
+24;HCO3;Waterstofcarbonaat;Algemeen;mg/l;WNS2305;HCO3;mg/l;NVT;OW; ;;CONCTTE
+25;NH3;Ammoniak;Algemeen;mg N/l;WNS1404;NH3;mg/l;N;OW; ;;CONCTTE
+26;NO2;Nitriet;Algemeen;mg N/l;WNS2341;NO2;mg/l;N;OW; ;;CONCTTE
+27;NO3;Nitraat;Algemeen;mg N/l;WNS2343;NO3;mg/l;N;OW; ;;CONCTTE
+28;Ptot nf;Fosfor totaal na filtratie;Algemeen;mg P/l;WNS2355;Ptot;mg/l;Pnf;OW; ;;CONCTTE
+29;S;Sulfide;Algemeen;mg/l;WNS1656;S;mg/l;NVT;OW; ;;CONCTTE
+30;Si;Silicium;Algemeen;mg/l;WNS2445;Si;mg/l;NVT;OW; ;;CONCTTE
+31;CO3;Carbonaat;Algemeen;mg/l;WNS6311;CO3;mg/l;NVT;OW; ;;CONCTTE
+32;CO2;Koolstofdioxide;Algemeen;mg/l;WNS4923;CO2;mg/l;NVT;OW; ;;CONCTTE
+33;ALKLTT;Alkaliteit;Algemeen;meq/l;WNS5022; ;meq/l;NVT;OW; ;;ALKLTT
+34;HH;Hardheid;Algemeen;mg/l;WNS5150;HH;mg/l;CaCO3;OW; ;;HH
+35;NO3 INSU;Nitraat met veldmeter;Algemeen;mg N/l;WNS2343;NO3;mg/l;N;OW; ;;CONCTTE
+100;BADGT OR;Badgasten op de oever;Zintuiglijk;n;WNS7864;BADGT;n;NVT;OR; ;;AANTL
+101;CYANBTRDLG;Cyanobacteriedrijflaag aanwezigheid;Zintuiglijk;DIMSLS;WNS10233;CYANBTRDLG;DIMSLS;NVT;OW; ;;AANWZHD
+102;GEUR;Geur afwijkend;Zintuiglijk;DIMSLS;WNS2981;GEUR;DIMSLS;NVT;OW; ;;AANWZHD
+103;HELDHD;Helderheid;Zintuiglijk;DIMSLS;WNS3879; ;DIMSLS;NVT;NT; ;HELDHD;
+104;IJSDK;IJsdek aanwezig;Zintuiglijk;DIMSLS;WNS2987;IJSDK;DIMSLS;NVT;OW; ;;AANWZHD
+105;KLEUR;Kleur afwijkend;Zintuiglijk;DIMSLS;WNS1230;KLEUR;DIMSLS;NVT;OW; ;;AANWZHD
+106;KROOS;Kroos aanwezigheid;Zintuiglijk;DIMSLS;WNS1234;KROOS;DIMSLS;NVT;OW; ;;AANWZHD
+107;KROOS [%];Kroosbedekking;Zintuiglijk;%;WNS8372;KROOS;%;NVT;OW; ;;BEDKG
+108;OLE;Olie aanwezigheid;Zintuiglijk;DIMSLS;WNS2757;OLE;DIMSLS;NVT;OW; ;;AANWZHD
+109;SCHUIM;Schuim;Zintuiglijk;DIMSLS;WNS1810;SCHUIM;DIMSLS;NVT;OW; ;;AANWZHD
+110;STROOMRTG;Stroomrichting;Zintuiglijk;DIMSLS;WNS9756; ;DIMSLS;NVT;OW; ;;STROOMRTG
+111;VUIL;Aanwezigheid drijfvuil;Zintuiglijk;DIMSLS;WNS2180;VUIL;DIMSLS;NVT;OW; ;;AANWZHD
+112;WATDTE;Waterdiepte;Zintuiglijk;m;WNS9937; ;m;NVT;OW; ;;WATDTE
+113;WEERGSHD;Weergesteldheid;Zintuiglijk;DIMSLS;WNS3875; ;DIMSLS;NVT;NT; ;WEERGSHD;
+114;VOGEL;Aantal vogels;Zintuiglijk;n;WNS8375;VOGL;n;NVT;OW; ;;AANTL
+115;WATEROPP;Wateroppervlak;Zintuiglijk;NVT; ; ; ; ;OW; ;;
+200;Al;Aluminium;Metalen totaal;ug/l;WNS431;Al;ug/l;NVT;OW;7429-90-5;;CONCTTE
+201;As;Arseen;Metalen totaal;ug/l;WNS476;As;ug/l;NVT;OW;7440-38-2;;CONCTTE
+202;Ba;Barium;Metalen totaal;ug/l;WNS496;Ba;ug/l;NVT;OW;7440-39-3;;CONCTTE
+204;Ca;Calcium;Metalen totaal;mg/l;WNS618;Ca;mg/l;NVT;OW; ;;CONCTTE
+203;Cd;Cadmium;Metalen totaal;ug/l;WNS649;Cd;ug/l;NVT;OW;7440-43-9;;CONCTTE
+208;Co;Kobalt;Metalen totaal;ug/l;WNS691;Co;ug/l;NVT;OW;7440-48-4;;CONCTTE
+205;Cr;Chroom;Metalen totaal;ug/l;WNS718;Cr;ug/l;NVT;OW;7440-47-3;;CONCTTE
+209;Cu;Koper;Metalen totaal;ug/l;WNS742;Cu;ug/l;NVT;OW;7440-50-8;;CONCTTE
+206;Fe;IJzer;Metalen totaal;mg/l;WNS1042;Fe;mg/l;NVT;OW;7439-89-6;;CONCTTE
+210;Hg;Kwik;Metalen totaal;ug/l;WNS1147;Hg;ug/l;NVT;OW;7439-97-6;;CONCTTE
+207;K;Kalium;Metalen totaal;mg/l;WNS1198;K;mg/l;NVT;OW; ;;CONCTTE
+212;Mg;Magnesium;Metalen totaal;mg/l;WNS1317;Mg;mg/l;NVT;OW; ;;CONCTTE
+213;Mn;Mangaan;Metalen totaal;ug/l;WNS1334;Mn;ug/l;NVT;OW;7439-96-5;;CONCTTE
+214;Na;Natrium;Metalen totaal;mg/l;WNS1381;Na;mg/l;NVT;OW; ;;CONCTTE
+215;Ni;Nikkel;Metalen totaal;ug/l;WNS1415;Ni;ug/l;NVT;OW;7440-02-0;;CONCTTE
+211;Pb;Lood;Metalen totaal;ug/l;WNS1471;Pb;ug/l;NVT;OW;7439-92-1;;CONCTTE
+216;Se;Seleen;Metalen totaal;ug/l;WNS2410;Se;ug/l;NVT;OW;7782-49-2;;CONCTTE
+218;V;Vanadium;Metalen totaal;ug/l;WNS2139;V;ug/l;NVT;OW;7440-62-2;;CONCTTE
+220;Zn;Zink;Metalen totaal;ug/l;WNS2209;Zn;ug/l;NVT;OW;7440-66-6;;CONCTTE
+219;Ag;Zilver;Metalen totaal;ug/l;WNS2234;Ag;ug/l;NVT;OW;7440-22-4;;CONCTTE
+217;U;Uranium;Metalen totaal;ug/l;WNS3771;U;ug/l;NVT;OW;7440-61-1;;CONCTTE
+250;Al nf;Aluminium opgelost;Metalen opgelost;ug/l;WNS2651;Al;ug/l;nf;OW;7429-90-5;;CONCTTE
+251;As nf;Arseen opgelost;Metalen opgelost;ug/l;WNS474;As;ug/l;nf;OW;7440-38-2;;CONCTTE
+252;Ba nf;Barium opgelost;Metalen opgelost;ug/l;WNS495;Ba;ug/l;nf;OW;7440-39-3;;CONCTTE
+253;Cd nf;Cadmium opgelost;Metalen opgelost;ug/l;WNS647;Cd;ug/l;nf;OW;7440-43-9;;CONCTTE
+258;Co nf;Kobalt opgelost;Metalen opgelost;ug/l;WNS690;Co;ug/l;nf;OW;7440-48-4;;CONCTTE
+255;Cr nf;Chroom opgelost;Metalen opgelost;ug/l;WNS716;Cr;ug/l;nf;OW;7440-47-3;;CONCTTE
+259;Cu nf;Koper opgelost;Metalen opgelost;ug/l;WNS740;Cu;ug/l;nf;OW;7440-50-8;;CONCTTE
+260;La nf;Lanthaan opgelost;Metalen opgelost;ug/l;WNS8764;La;ug/l;nf;OW;7439-91-0;;CONCTTE
+264;Ni nf;Nikkel opgelost;Metalen opgelost;ug/l;WNS1413;Ni;ug/l;nf;OW;7440-02-0;;CONCTTE
+261;Pb nf;Lood opgelost;Metalen opgelost;ug/l;WNS1469;Pb;ug/l;nf;OW;7439-92-1;;CONCTTE
+265;Se nf;Seleen opgelost;Metalen opgelost;ug/l;WNS2806;Se;ug/l;nf;OW;7782-49-2;;CONCTTE
+266;Tl nf;Thallium opgelost;Metalen opgelost;ug/l;WNS4096;Tl;ug/l;nf;OW;7440-28-0;;CONCTTE
+268;V nf;Vanadium opgelost;Metalen opgelost;ug/l;WNS2138;V;ug/l;nf;OW;7440-62-2;;CONCTTE
+270;Zn nf;Zink opgelost;Metalen opgelost;ug/l;WNS2207;Zn;ug/l;nf;OW;7440-66-6;;CONCTTE
+256;Fe nf;IJzer opgelost;Metalen opgelost;mg/l;WNS1040;Fe;mg/l;nf;OW;7439-89-6;;CONCTTE
+269;Ag nf;Zilver opgelost;Metalen opgelost;ug/l;WNS3957;Ag;ug/l;nf;OW;7440-22-4;;CONCTTE
+267;U nf;Uranium opgelost;Metalen opgelost;ug/l;WNS3772;U;ug/l;nf;OW;7440-61-1;;CONCTTE
+254;Ca nf;calcium opgelost;Metalen opgelost;mg/l;WNS617;Ca;mg/l;nf;OW;7440-70-2;;CONCTTE
+257;K nf;kalium opgelost;Metalen opgelost;mg/l;WNS2718;K;mg/l;nf;OW;7440-09-7;;CONCTTE
+262;Mg nf;magnesium opgelost;Metalen opgelost;mg/l;WNS1316;Mg;mg/l;nf;OW;7439-95-4;;CONCTTE
+263;Na nf;natrium opgelost;Metalen opgelost;mg/l;WNS2745;Na;mg/l;nf;OW;7440-23-5;;CONCTTE
+300;E_COLI;Escherichia coli;Bacteriologie;n/dl;WNS5980;E_COLI;n/dl;KVE;OW; ;;AANTPVLME
+301;INTTNLETRCCN;Intestinale enterococcen;Bacteriologie;n/dl;WNS4906;INTTNLETRCCN;n/dl;KVE;OW; ;;AANTPVLME
+302;CAMPLBTR;Campylobacter;Bacteriologie;n/dl;WNS8489;CAMPLBTR;n/dl;KVE;OW; ;;AANTPVLME
+303;THERMTLRTCLS;Thermotolerante Colis (incubatie bij 44 oC);Bacteriologie;n/dl;WNS6715;THERMTLRTCLS;n/dl;KVE;OW; ;;AANTPVLME
+304;TOTCLS;Totaal Colis (incubatie bij 37 oC);Bacteriologie;n/dl;WNS7410;TOTCLS;n/dl;KVE;OW; ;;AANTPVLME
+305;KIEMGTL [22oC];Kiemgetal geincubeerd bij 22oC;Bacteriologie;n/ml;WNS6696; ;n/ml;22oC;OW; ;;KIEMGTL
+306;KIEMGTL [36oC];Kiemgetal geincubeerd bij 36oC;Bacteriologie;n/ml;WNS6697; ;n/ml;36oC;OW; ;;KIEMGTL
+307;SALMNLA;Salmonella;Bacteriologie;n/dl;WNS3827;SALMNLA;n/dl;NVT;OW; ;;AANTPVLME
+308;FAECLSTCCND;Faecale Streptococcen D;Bacteriologie;n/dl;WNS3828;FAECLSTCCND;n/dl;NVT;OW; ;;AANTPVLME
+400;sTOXSBAGN5;som 5 toxische blauwalgen biovolume;Blauwalgen;mm3/l;WNS12374;sTOXSBAGN5;mm3/l;NVT;OW; ;;VOLMFTE
+401;CATCANBTRDLG;Categorie Cyanobacteriedrijflaag;Blauwalgen;DIMSLS;WNS8504; ;DIMSLS;NVT;OW; ;CATCANBTRDLG;
+402;AANWZHTXSBAV;Aanwezigheid toxische blauwalg vastgesteld;Blauwalgen;DIMSLS;WNS8946;TOXSBAGN;DIMSLS;NVT;OW; ;;AANWZHD
+403;ANNA;Anabaena biovolume;Blauwalgen;mm3/l;WNS8962;ANNA;mm3/l;NVT;OW; ;;VOLMFTE
+404;APNI;Aphanizomenon biovolume;Blauwalgen;mm3/l;WNS8961;APNI;mm3/l;NVT;OW; ;;VOLMFTE
+405;MICY;Microcystis biovolume;Blauwalgen;mm3/l;WNS8960;MICY;mm3/l;NVT;OW; ;;VOLMFTE
+406;PLAN;Planktothrix biovolume;Blauwalgen;mm3/l;WNS8963;PLAN;mm3/l;NVT;OW; ;;VOLMFTE
+407;WORO;Woronichinia biovolume;Blauwalgen;mm3/l;WNS8964;WORO;mm3/l;NVT;OW; ;;VOLMFTE
+408;ANNA [cel];Anabaena;Blauwalgen;n/ml;WNS9311;ANNA;n/ml;cel;OW; ;;AANTPVLME
+409;APNI [cel];Aphanizomenon;Blauwalgen;n/ml;WNS9310;APNI;n/ml;cel;OW; ;;AANTPVLME
+410;MICY [cel];Microcystis;Blauwalgen;n/ml;WNS9309;MICY;n/ml;cel;OW; ;;AANTPVLME
+411;PLAN [cel];Planktothrix;Blauwalgen;n/ml;WNS9318;PLAN;n/ml;cel;OW; ;;AANTPVLME
+412;WORO [cel];Woronichinia;Blauwalgen;n/ml;WNS9319;WORO;n/ml;cel;OW; ;;AANTPVLME
+413;sTOXSBAGN5 [cel];som 5 toxische blauwalgen;Blauwalgen;n/ml;WNS9708;sTOXSBAGN5;n/ml;cel;OW; ;;AANTPVLME
+414;sMICCTNS;Som microcystines;Blauwalgen;ug/l;WNS3834;sMICCTNS;ug/l;NVT;OW; ;;CONCTTE
+415;CHLFa balg [FL];Chlorofyl-a blauwalg [fluoroprobe];Blauwalgen;ug/l;WNS9253;CHLFa;ug/l;blauwalg;OW;479-61-8;;CONCTTE
+416;CHLFa galg [FL];Chlorofyl-a groenalg [fluoroprobe];Blauwalgen;ug/l;WNS9320;CHLFa;ug/l;groenalg;OW;479-61-8;;CONCTTE
+417;CHLFa crypt [FL];Chlorofyl-a cryptofyten [fluoroprobe];Blauwalgen;ug/l;WNS9322;CHLFa;ug/l;cryptofy;OW;479-61-8;;CONCTTE
+418;CHLFa diat [FL];Chlorofyl-a diatomee [fluoroprobe];Blauwalgen;ug/l;WNS9321;CHLFa;ug/l;diatomee;OW;479-61-8;;CONCTTE
+419;CHLFa [FL];Chlorofyl-a [fluoroprobe];Blauwalgen;ug/l;WNS2260;CHLFa;ug/l;NVT;OW;479-61-8;;CONCTTE
+420;HUMUS [FL];Humuszuren [fluoroprobe];Blauwalgen;DIMSLS;WNS13204; ;DIMSLS;EL370nm;OW; ;;FLUORCTE
+421;PHOR;Aanwezigheid phormidium;Blauwalgen;DIMSLS;WNS9747;PHOR;DIMSLS;NVT;OW; ;;AANWZHD
+422;CATCANBTRMT;Categorie Cyanobacteriemat;Blauwalgen;DIMSLS;WNS12169; ;DIMSLS;NVT;OW; ;CATCANBTRMT;
+450;POELSK;Aantal poelslakken (tbv zwemmersjeuk);Zwemmersjeuk;n;WNS10408;POELSK;n;NVT;OW; ;;AANTL
+451;TRICBHZA;Trichobilharzia (zwemmersjeuk) aangetroffen;Zwemmersjeuk;DIMSLS;WNS10358;TRICBHZA;DIMSLS;NVT;OW; ;;AANWZHD
+452;ZWEMMJK;Zwemmersjeuk aangetoond;Zwemmersjeuk;DIMSLS;WNS9752;ZWEMMJK;DIMSLS;NVT;OW; ;;AANWZHD
+500;Porg [BER];fosfor organisch (berekend Ptot-PO4);Berekend;mg P/l; ;Porg;mg/l;P;OW; ;;CONCTTE
+501;Norg [BER];stikstof organisch (berekend NKj-NH4);Berekend;mg N/l; ;Norg;mg/l;N;OW; ;;CONCTTE
+502;IONRTO [BER];Ionenratio (berekend Ca en Cl);Berekend;%;WNS4534; ;%;NVT;OW; ;;IONRTO
+503;Ntot [BER];Stikstof totaal (berekend);Berekend;mg N/l;WNS2333;Ntot;mg/l;N;OW; ;;CONCTTE
+504;NKj [BER];Stikstof Kjeldahl (berekend);Berekend;mg N/l;WNS2323;NKj;mg/l;N;OW; ;;CONCTTE
+505;Nanorg [BER];Stikstof anorganisch (berekend NH4+Nox);Berekend;mg N/l;WNS7476;Nanorg;mg/l;N;OW; ;;CONCTTE
+506;ZICHT/WATDTE [BER];Doorzicht/diepte ratio (berekend);Berekend;fractie; ; ; ; ;OW; ;;
+702;antxna [DL];Anatoxine-a [drijflaag];Drijflaag;ug/l;WNS9400;antxna;ug/l;NVT;DL; ;;CONCTTE
+700;Ptot [DL];Fosfor totaal [drijflaag];Drijflaag;mg P/l; ;Ptot;mg/l;P;DL; ;;CONCTTE
+703;MC-LR [DL];Microcystine-LR [drijflaag];Drijflaag;ug/l;WNS9410;MC-LR;ug/l;NVT;DL; ;;CONCTTE
+704;MC-RR [DL];Microcystine-RR [drijflaag];Drijflaag;ug/l;WNS9427;MC-RR;ug/l;NVT;DL; ;;CONCTTE
+705;MC-YR [DL];Microcystine-YR [drijflaag];Drijflaag;ug/l;WNS9429;MC-YR;ug/l;NVT;DL; ;;CONCTTE
+811;Ag110m;zilver 110m (metastabiel);Radioactief;mBq/l;WNS9475;Ag110m;mBq/l;NVT;OW; ;;ACTVTCCTTE
+800;Am241;americium 241;Radioactief;mBq/l;WNS5252;Am241;mBq/l;NVT;OW; ;;ACTVTCCTTE
+805;Co60;kobalt 60;Radioactief;mBq/l;WNS4156;Co60;mBq/l;NVT;OW; ;;ACTVTCCTTE
+801;Cs134;cesium 134;Radioactief;mBq/l;WNS726;Cs134;mBq/l;NVT;OW; ;;ACTVTCCTTE
+802;Cs137;cesium 137;Radioactief;mBq/l;WNS730;Cs137;mBq/l;NVT;OW; ;;ACTVTCCTTE
+810;H3;tritium;Radioactief;mBq/l;WNS9464;H3;mBq/l;NVT;OW; ;;ACTVTCCTTE
+803;I131;jodium 131;Radioactief;mBq/l;WNS1158;I131;mBq/l;NVT;OW; ;;ACTVTCCTTE
+804;K40;kalium 40;Radioactief;mBq/l;WNS4535;K40;mBq/l;NVT;OW; ;;ACTVTCCTTE
+806;Mn54;mangaan 54;Radioactief;mBq/l;WNS5121;Mn54;mBq/l;NVT;OW; ;;ACTVTCCTTE
+807;RESTBTA;Rest Beta;Radioactief;mBq/l;WNS9968;RESTBTA;mBq/l;NVT;OW; ;;ACTVTCCTTE
+808;TOTAFA;Totaal Alfa;Radioactief;mBq/l;WNS9973;TOTAFA;mBq/l;NVT;OW; ;;ACTVTCCTTE
+809;TOTBTA;Totaal Beta;Radioactief;mBq/l;WNS9977;TOTBTA;mBq/l;NVT;OW; ;;ACTVTCCTTE
+812;Zn65;zink 65;Radioactief;mBq/l;WNS9474;Zn65;mBq/l;NVT;OW; ;;ACTVTCCTTE
+900;AFMD;Afmeldreden niet genomen monster;Monstername;DIMSLS;WNS8449; ;DIMSLS;NVT;OW; ;AFMD;
+901;MONSDTE;Monsterdiepte;Monstername;m;WNS9943; ;m;NVT;OW; ;;MONSDTE
+1001;245T;2,4,5-trichloorfenoxyazijnzuur;Bestrijdingsmiddelen;ug/l;WNS2846;245T;ug/l;NVT;OW;93-76-5;;CONCTTE
+1002;245TP;2,4,5-trichloorfenoxypropionzuur;Bestrijdingsmiddelen;ug/l;WNS2852;245TP;ug/l;NVT;OW;93-72-1;;CONCTTE
+1006;24D;2,4-dichloorfenoxyazijnzuur;Bestrijdingsmiddelen;ug/l;WNS2854;24D;ug/l;NVT;OW;94-75-7;;CONCTTE
+1007;24DB;2,4-dichloorfenoxyboterzuur;Bestrijdingsmiddelen;ug/l;WNS2859;24DB;ug/l;NVT;OW;94-82-6;;CONCTTE
+1003;24DDD;2,4-dichloordifenyldichloorethaan;Bestrijdingsmiddelen;ug/l;WNS2216;24DDD;ug/l;NVT;OW;53-19-0;;CONCTTE
+1004;24DDE;2,4-dichloordifenyldichlooretheen;Bestrijdingsmiddelen;ug/l;WNS2220;24DDE;ug/l;NVT;OW;3424-82-6;;CONCTTE
+1005;24DDT;2,4-dichloordifenyltrichloorethaan;Bestrijdingsmiddelen;ug/l;WNS2224;24DDT;ug/l;NVT;OW;789-02-6;;CONCTTE
+1009;24DNO2Fol;2,4-dinitrofenol;Bestrijdingsmiddelen;ug/l;WNS204;24DNO2Fol;ug/l;NVT;OW;51-28-5;;CONCTTE
+1008;24DP;2,4-dichloorfenoxypropionzuur;Bestrijdingsmiddelen;ug/l;WNS208;24DP;ug/l;NVT;OW; ;;CONCTTE
+1010;26DClBenAd;2,6-dichloorbenzamide;Bestrijdingsmiddelen;ug/l;WNS233;26DClBenAd;ug/l;NVT;OW;2008-58-4;;CONCTTE
+1000;3Cl4C1yFyura;(3-chloor-4-methylfenyl)urea;Bestrijdingsmiddelen;ug/l;WNS8389;3Cl4C1yFyura;ug/l;NVT;OW; ;;CONCTTE
+1014;44DDD;4,4-dichloordifenyldichloorethaan;Bestrijdingsmiddelen;ug/l;WNS338;44DDD;ug/l;NVT;OW;72-54-8;;CONCTTE
+1015;44DDE;4,4-dichloordifenyldichlooretheen;Bestrijdingsmiddelen;ug/l;WNS343;44DDE;ug/l;NVT;OW;72-55-9;;CONCTTE
+1016;44DDT;4,4-dichloordifenyltrichloorethaan;Bestrijdingsmiddelen;ug/l;WNS348;44DDT;ug/l;NVT;OW;50-29-3;;CONCTTE
+1022;4C1y2C5on;4-methyl-2-pentanon (MIBK);Bestrijdingsmiddelen;ug/l;WNS4575;4C1y2C5on;ug/l;NVT;OW;108-10-1;;CONCTTE
+1024;4C9yFol;4-nonylfenol;Bestrijdingsmiddelen;ug/l;WNS4748;4C9yFol;ug/l;NVT;OW;104-40-5;;CONCTTE
+1018;4ClAn;4-chlooraniline;Bestrijdingsmiddelen;ug/l;WNS355;4ClAn;ug/l;NVT;OW;106-47-8;;CONCTTE
+1019;4CPA;4-chloorfenoxyazijnzuur;Bestrijdingsmiddelen;ug/l;WNS364;4CPA;ug/l;NVT;OW;122-88-3;;CONCTTE
+1023;4NO2Fol;4-nitrofenol;Bestrijdingsmiddelen;ug/l;WNS2893;4NO2Fol;ug/l;NVT;OW; ;;CONCTTE
+1025;4ttC8yFol;4-tertiair-octylfenol;Bestrijdingsmiddelen;ug/l;WNS4749;4ttC8yFol;ug/l;NVT;OW;140-66-9;;CONCTTE
+1026;abmtne;abamectine;Bestrijdingsmiddelen;ug/l;WNS4432;abmtne;ug/l;NVT;OW;71751-41-2;;CONCTTE
+1030;acdne;acridine;Bestrijdingsmiddelen;ug/l;WNS6595;acdne;ug/l;NVT;OW;260-94-6;;CONCTTE
+1036;acpmtn;alfa-cypermethrin;Bestrijdingsmiddelen;ug/l;WNS5616;acpmtn;ug/l;NVT;OW;67375-30-8;;CONCTTE
+1028;actmpd;acetamiprid;Bestrijdingsmiddelen;ug/l;WNS5629;actmpd;ug/l;NVT;OW;160430-64-8;;CONCTTE
+1037;aedsfn;alfa-endosulfan;Bestrijdingsmiddelen;ug/l;WNS410;aedsfn;ug/l;NVT;OW; ;;CONCTTE
+1038;aHCH;alfa-hexachloorcyclohexaan;Bestrijdingsmiddelen;ug/l;WNS2237;aHCH;ug/l;NVT;OW;319-84-6;;CONCTTE
+1031;alCl;alachloor;Bestrijdingsmiddelen;ug/l;WNS434;alCl;ug/l;NVT;OW;15972-60-8;;CONCTTE
+1032;alDcb;aldicarb;Bestrijdingsmiddelen;ug/l;WNS442;alDcb;ug/l;NVT;OW;116-06-3;;CONCTTE
+1033;alDcsfn;aldicarbsulfon;Bestrijdingsmiddelen;ug/l;WNS445;alDcsfn;ug/l;NVT;OW;1646-88-4;;CONCTTE
+1034;alDcSO;aldicarbsulfoxide;Bestrijdingsmiddelen;ug/l;WNS448;alDcSO;ug/l;NVT;OW;1646-87-3;;CONCTTE
+1035;aldn;aldrin;Bestrijdingsmiddelen;ug/l;WNS439;aldn;ug/l;NVT;OW;309-00-2;;CONCTTE
+1040;amdsfrn;amidosulfuron;Bestrijdingsmiddelen;ug/l;WNS5303;amdsfrn;ug/l;NVT;OW;120923-37-7;;CONCTTE
+1041;AMPA;aminomethylfosfonzuur;Bestrijdingsmiddelen;ug/l;WNS2653;AMPA;ug/l;NVT;OW;1066-51-9;;CONCTTE
+1042;atzne;atrazine;Bestrijdingsmiddelen;ug/l;WNS484;atzne;ug/l;NVT;OW;1912-24-9;;CONCTTE
+1043;azacnzl;azaconazool;Bestrijdingsmiddelen;ug/l;WNS4851;azacnzl;ug/l;NVT;OW;60207-31-0;;CONCTTE
+1045;azmtfs;azamethifos;Bestrijdingsmiddelen;ug/l;WNS5648;azmtfs;ug/l;NVT;OW;35575-96-3;;CONCTTE
+1046;azoxsbn;azoxystrobin;Bestrijdingsmiddelen;ug/l;WNS4852;azoxsbn;ug/l;NVT;OW;131860-33-8;;CONCTTE
+1048;bedsfn;beta-endosulfan;Bestrijdingsmiddelen;ug/l;WNS553;bedsfn;ug/l;NVT;OW; ;;CONCTTE
+1047;bentzn;bentazon;Bestrijdingsmiddelen;ug/l;WNS556;bentzn;ug/l;NVT;OW;25057-89-0;;CONCTTE
+1051;bfnx;bifenox;Bestrijdingsmiddelen;ug/l;WNS5180;bfnx;ug/l;NVT;OW;42576-02-3;;CONCTTE
+1049;bHCH;beta-hexachloorcyclohexaan;Bestrijdingsmiddelen;ug/l;WNS582;bHCH;ug/l;NVT;OW;319-85-7;;CONCTTE
+1053;bittnl;bitertanol;Bestrijdingsmiddelen;ug/l;WNS4429;bittnl;ug/l;NVT;OW;55179-31-2;;CONCTTE
+1054;boscld;boscalid;Bestrijdingsmiddelen;ug/l;WNS5670;boscld;ug/l;NVT;OW;188425-85-6;;CONCTTE
+1055;bromcl;bromacil;Bestrijdingsmiddelen;ug/l;WNS3795;bromcl;ug/l;NVT;OW;314-40-9;;CONCTTE
+1056;BrOxnl;broomoxynil;Bestrijdingsmiddelen;ug/l;WNS4544;BrOxnl;ug/l;NVT;OW;1689-84-5;;CONCTTE
+1057;Brpplt;broompropylaat;Bestrijdingsmiddelen;ug/l;WNS4338;Brpplt;ug/l;NVT;OW;18181-80-1;;CONCTTE
+1059;bupfzn;buprofezin;Bestrijdingsmiddelen;ug/l;WNS4545;bupfzn;ug/l;NVT;OW;69327-76-0;;CONCTTE
+1058;buprmt;bupirimaat;Bestrijdingsmiddelen;ug/l;WNS4374;buprmt;ug/l;NVT;OW;41483-43-6;;CONCTTE
+1060;butcbOxm;butocarboxim;Bestrijdingsmiddelen;ug/l;WNS4339;butcbOxm;ug/l;NVT;OW;34681-10-2;;CONCTTE
+1061;butcbOxmSO;butocarboximsulfoxide;Bestrijdingsmiddelen;ug/l;WNS3791;butcbOxmSO;ug/l;NVT;OW; ;;CONCTTE
+1084;c12DClC2e;cis-1,2-dichlooretheen;Bestrijdingsmiddelen;ug/l;WNS3798;c12DClC2e;ug/l;NVT;OW; ;;CONCTTE
+1231;C1yazfs;methylazinfos;Bestrijdingsmiddelen;ug/l;WNS1363;C1yazfs;ug/l;NVT;OW;86-50-0;;CONCTTE
+1232;C1yBrfs;methylbromofos;Bestrijdingsmiddelen;ug/l;WNS2738;C1yBrfs;ug/l;NVT;OW;2104-96-3;;CONCTTE
+1233;C1yClprfs;methylchloorpyrifos;Bestrijdingsmiddelen;ug/l;WNS4443;C1yClprfs;ug/l;NVT;OW;5598-13-0;;CONCTTE
+1234;C1yitoCN;methylisothiocyanaat;Bestrijdingsmiddelen;ug/l;WNS1323;C1yitoCN;ug/l;NVT;OW; ;;CONCTTE
+1235;C1ymsfrn;methyl-metsulfuron;Bestrijdingsmiddelen;ug/l;WNS5829;C1ymsfrn;ug/l;NVT;OW;74223-64-6;;CONCTTE
+1237;C1yprmfs;methylpirimifos;Bestrijdingsmiddelen;ug/l;WNS4353;C1yprmfs;ug/l;NVT;OW;29232-93-7;;CONCTTE
+1236;C1yprton;methylparathion;Bestrijdingsmiddelen;ug/l;WNS1372;C1yprton;ug/l;NVT;OW;298-00-0;;CONCTTE
+1146;C2yactt;ethylacetaat;Bestrijdingsmiddelen;ug/l;WNS4387;C2yactt;ug/l;NVT;OW; ;;CONCTTE
+1147;C2yazfs;ethylazinfos;Bestrijdingsmiddelen;ug/l;WNS1011;C2yazfs;ug/l;NVT;OW;2642-71-9;;CONCTTE
+1148;C2yBrfs;ethylbromofos;Bestrijdingsmiddelen;ug/l;WNS2876;C2yBrfs;ug/l;NVT;OW;4824-78-6;;CONCTTE
+1149;C2yClprfs;ethylchloorpyrifos;Bestrijdingsmiddelen;ug/l;WNS708;C2yClprfs;ug/l;NVT;OW;2921-88-2;;CONCTTE
+1152;C2yprton;ethylparathion;Bestrijdingsmiddelen;ug/l;WNS2880;C2yprton;ug/l;NVT;OW;56-38-2;;CONCTTE
+1062;C4yactt;butylacetaat;Bestrijdingsmiddelen;ug/l;WNS3634;C4yactt;ug/l;NVT;OW; ;;CONCTTE
+1249;C9yFol;nonylfenol;Bestrijdingsmiddelen;ug/l;WNS4396;C9yFol;ug/l;NVT;OW;25154-52-3;;CONCTTE
+1064;captn;captan;Bestrijdingsmiddelen;ug/l;WNS633;captn;ug/l;NVT;OW;133-06-2;;CONCTTE
+1067;carbdzm;carbendazim;Bestrijdingsmiddelen;ug/l;WNS3388;carbdzm;ug/l;NVT;OW;10605-21-7;;CONCTTE
+1069;carbfrn;carbofuran;Bestrijdingsmiddelen;ug/l;WNS636;carbfrn;ug/l;NVT;OW;1563-66-2;;CONCTTE
+1065;carbmzpne;carbamazepine;Bestrijdingsmiddelen;ug/l;WNS4988;carbmzpne;ug/l;NVT;OW;298-46-4;;CONCTTE
+1066;carbrl;carbaryl;Bestrijdingsmiddelen;ug/l;WNS639;carbrl;ug/l;NVT;OW;63-25-2;;CONCTTE
+1068;carbtAd;carbetamide;Bestrijdingsmiddelen;ug/l;WNS4903;carbtAd;ug/l;NVT;OW;16118-49-3;;CONCTTE
+1085;cCldn;cis-chloordaan;Bestrijdingsmiddelen;ug/l;WNS3799;cCldn;ug/l;NVT;OW; ;;CONCTTE
+1187;cHCH;gamma-hexachloorcyclohexaan (lindaan);Bestrijdingsmiddelen;ug/l;WNS2257;cHCH;ug/l;NVT;OW; ;;CONCTTE
+1086;cHpClepO;cis-heptachloorepoxide;Bestrijdingsmiddelen;ug/l;WNS2258;cHpClepO;ug/l;NVT;OW; ;;CONCTTE
+1072;ClAeT;chlooramine-T;Bestrijdingsmiddelen;ug/l;WNS4337;ClAeT;ug/l;NVT;OW;127-65-1;;CONCTTE
+1073;Clbmrn;chloorbromuron;Bestrijdingsmiddelen;ug/l;WNS678;Clbmrn;ug/l;NVT;OW;13360-45-7;;CONCTTE
+1075;Clfvfs;chloorfenvinfos;Bestrijdingsmiddelen;ug/l;WNS2971;Clfvfs;ug/l;NVT;OW;470-90-6;;CONCTTE
+1083;Clidzn;chloridazon;Bestrijdingsmiddelen;ug/l;WNS2267;Clidzn;ug/l;NVT;OW;1698-60-8;;CONCTTE
+1089;clodnfppgl;clodinafop-propargyl;Bestrijdingsmiddelen;ug/l;WNS5339;clodnfppgl;ug/l;NVT;OW;105512-06-9;;CONCTTE
+1090;clomzn;clomazon;Bestrijdingsmiddelen;ug/l;WNS5701;clomzn;ug/l;NVT;OW;81777-89-1;;CONCTTE
+1091;cloprld;clopyralid;Bestrijdingsmiddelen;ug/l;WNS5289;cloprld;ug/l;NVT;OW;1702-17-6;;CONCTTE
+1092;cloqtcmxl;cloquintoceet-mexyl;Bestrijdingsmiddelen;ug/l;WNS4854;cloqtcmxl;ug/l;NVT;OW;99607-70-2;;CONCTTE
+1077;Cloxrn;chlooroxuron;Bestrijdingsmiddelen;ug/l;WNS681;Cloxrn;ug/l;NVT;OW;1982-47-4;;CONCTTE
+1078;Clpfm;chloorprofam;Bestrijdingsmiddelen;ug/l;WNS3801;Clpfm;ug/l;NVT;OW;101-21-3;;CONCTTE
+1079;Clsfrn;chloorsulfuron;Bestrijdingsmiddelen;ug/l;WNS6892;Clsfrn;ug/l;NVT;OW;64902-72-3;;CONCTTE
+1080;Cltlnl;chloorthalonil;Bestrijdingsmiddelen;ug/l;WNS3802;Cltlnl;ug/l;NVT;OW;1897-45-6;;CONCTTE
+1081;Cltlrn;chloortoluron;Bestrijdingsmiddelen;ug/l;WNS732;Cltlrn;ug/l;NVT;OW;15545-48-9;;CONCTTE
+1087;cmevfs;cis-mevinfos;Bestrijdingsmiddelen;ug/l;WNS4360;cmevfs;ug/l;NVT;OW; ;;CONCTTE
+1093;cumfs;cumafos;Bestrijdingsmiddelen;ug/l;WNS701;cumfs;ug/l;NVT;OW;56-72-4;;CONCTTE
+1096;cycxdm;cycloxydim;Bestrijdingsmiddelen;ug/l;WNS5291;cycxdm;ug/l;NVT;OW;101205-02-1;;CONCTTE
+1099;cymOanl;cymoxanil;Bestrijdingsmiddelen;ug/l;WNS4944;cymOanl;ug/l;NVT;OW;57966-95-7;;CONCTTE
+1101;cypcnzl;cyproconazool;Bestrijdingsmiddelen;ug/l;WNS5292;cypcnzl;ug/l;NVT;OW;94361-06-5;;CONCTTE
+1102;cypdnl;cyprodinil;Bestrijdingsmiddelen;ug/l;WNS4857;cypdnl;ug/l;NVT;OW;121552-61-2;;CONCTTE
+1100;cypmtn;cypermethrin;Bestrijdingsmiddelen;ug/l;WNS752;cypmtn;ug/l;NVT;OW;52315-07-8;;CONCTTE
+1103;cyrmzne;cyromazine;Bestrijdingsmiddelen;ug/l;WNS5710;cyrmzne;ug/l;NVT;OW;66215-27-8;;CONCTTE
+1104;damnzde;daminozide;Bestrijdingsmiddelen;ug/l;WNS5711;damnzde;ug/l;NVT;OW;1596-84-5;;CONCTTE
+1112;Daznn;diazinon;Bestrijdingsmiddelen;ug/l;WNS807;Daznn;ug/l;NVT;OW;333-41-5;;CONCTTE
+1113;Dcba;dicamba;Bestrijdingsmiddelen;ug/l;WNS870;Dcba;ug/l;NVT;OW;1918-00-9;;CONCTTE
+1114;Dcbnl;dichlobenil;Bestrijdingsmiddelen;ug/l;WNS2641;Dcbnl;ug/l;NVT;OW;1194-65-6;;CONCTTE
+1115;Dcfande;dichlofluanide;Bestrijdingsmiddelen;ug/l;WNS4552;Dcfande;ug/l;NVT;OW;1085-98-9;;CONCTTE
+1116;DClvs;dichloorvos;Bestrijdingsmiddelen;ug/l;WNS2866;DClvs;ug/l;NVT;OW;62-73-7;;CONCTTE
+1119;DEET;diethyltoluamide;Bestrijdingsmiddelen;ug/l;WNS3391;DEET;ug/l;NVT;OW;134-62-3;;CONCTTE
+1052;DEHP;bis(2-ethylhexyl)ftalaat (DEHP);Bestrijdingsmiddelen;ug/l;WNS2284;DEHP;ug/l;NVT;OW;117-81-7;;CONCTTE
+1107;demtSC1y;demeton-S-methyl;Bestrijdingsmiddelen;ug/l;WNS4550;demtSC1y;ug/l;NVT;OW;919-86-8;;CONCTTE
+1108;desC2yatzne;desethylatrazine;Bestrijdingsmiddelen;ug/l;WNS939;desC2yatzne;ug/l;NVT;OW;6190-65-4;;CONCTTE
+1110;desmdfm;desmedifam;Bestrijdingsmiddelen;ug/l;WNS4858;desmdfm;ug/l;NVT;OW;13684-56-5;;CONCTTE
+1111;desmtn;desmetryn;Bestrijdingsmiddelen;ug/l;WNS951;desmtn;ug/l;NVT;OW;1014-69-3;;CONCTTE
+1118;Detfcb;diethofencarb;Bestrijdingsmiddelen;ug/l;WNS4553;Detfcb;ug/l;NVT;OW;87130-20-9;;CONCTTE
+1122;Dfbzrn;diflubenzuron;Bestrijdingsmiddelen;ug/l;WNS4557;Dfbzrn;ug/l;NVT;OW;35367-38-5;;CONCTTE
+1123;Dffncn;diflufenican;Bestrijdingsmiddelen;ug/l;WNS5293;Dffncn;ug/l;NVT;OW;83164-33-4;;CONCTTE
+1120;Dfncnzl;difenoconazool;Bestrijdingsmiddelen;ug/l;WNS4555;Dfncnzl;ug/l;NVT;OW;119446-68-3;;CONCTTE
+1121;Dfnxrn;difenoxuron;Bestrijdingsmiddelen;ug/l;WNS4556;Dfnxrn;ug/l;NVT;OW;14214-32-5;;CONCTTE
+1105;dHCH;delta-hexachloorcyclohexaan;Bestrijdingsmiddelen;ug/l;WNS866;dHCH;ug/l;NVT;OW; ;;CONCTTE
+1117;dieldn;dieldrin;Bestrijdingsmiddelen;ug/l;WNS890;dieldn;ug/l;NVT;OW;60-57-1;;CONCTTE
+1020;DMST;4-dimethylaminosulfotoluidide;Bestrijdingsmiddelen;ug/l;WNS4348;DMST;ug/l;NVT;OW; ;;CONCTTE
+1124;DmtAd;dimethenamide;Bestrijdingsmiddelen;ug/l;WNS4341;DmtAd;ug/l;NVT;OW;87674-68-8;;CONCTTE
+1125;Dmtat;dimethoaat;Bestrijdingsmiddelen;ug/l;WNS895;Dmtat;ug/l;NVT;OW;60-51-5;;CONCTTE
+1126;Dmtmf;dimethomorf;Bestrijdingsmiddelen;ug/l;WNS4347;Dmtmf;ug/l;NVT;OW;110488-70-5;;CONCTTE
+1106;dmtn;deltamethrin;Bestrijdingsmiddelen;ug/l;WNS900;dmtn;ug/l;NVT;OW;52918-63-5;;CONCTTE
+1017;DNOC;4,6-dinitro-o-cresol;Bestrijdingsmiddelen;ug/l;WNS2872;DNOC;ug/l;NVT;OW;534-52-1;;CONCTTE
+1127;Dnsb;dinoseb;Bestrijdingsmiddelen;ug/l;WNS880;Dnsb;ug/l;NVT;OW;88-85-7;;CONCTTE
+1128;Dntb;dinoterb;Bestrijdingsmiddelen;ug/l;WNS2286;Dntb;ug/l;NVT;OW;1420-07-1;;CONCTTE
+1132;dodmf;dodemorf;Bestrijdingsmiddelen;ug/l;WNS4349;dodmf;ug/l;NVT;OW;1593-77-7;;CONCTTE
+1129;Dsftn;disulfoton;Bestrijdingsmiddelen;ug/l;WNS944;Dsftn;ug/l;NVT;OW;298-04-4;;CONCTTE
+1130;Dtann;dithianon;Bestrijdingsmiddelen;ug/l;WNS4860;Dtann;ug/l;NVT;OW;3347-22-6;;CONCTTE
+1131;Durn;diuron;Bestrijdingsmiddelen;ug/l;WNS885;Durn;ug/l;NVT;OW;330-54-1;;CONCTTE
+1137;endn;endrin;Bestrijdingsmiddelen;ug/l;WNS978;endn;ug/l;NVT;OW;72-20-8;;CONCTTE
+1135;endsfn;endosulfan (som alfa- en beta-isomeer);Bestrijdingsmiddelen;ug/l;WNS4917;endsfn;ug/l;NVT;OW;115-29-7;;CONCTTE
+1136;endsfSO4;endosulfansulfaat;Bestrijdingsmiddelen;ug/l;WNS982;endsfSO4;ug/l;NVT;OW; ;;CONCTTE
+1150;EPTC;ethyldipropylthiocarbamaat;Bestrijdingsmiddelen;ug/l;WNS5329;EPTC;ug/l;NVT;OW;759-94-4;;CONCTTE
+1139;esfvlrt;esfenvaleraat;Bestrijdingsmiddelen;ug/l;WNS4350;esfvlrt;ug/l;NVT;OW;66230-04-4;;CONCTTE
+1154;eTDazl;etridiazol;Bestrijdingsmiddelen;ug/l;WNS4433;eTDazl;ug/l;NVT;OW;2593-15-9;;CONCTTE
+1144;etfmst;ethofumesaat;Bestrijdingsmiddelen;ug/l;WNS3833;etfmst;ug/l;NVT;OW;26225-79-6;;CONCTTE
+1141;etofcb;ethiofencarb;Bestrijdingsmiddelen;ug/l;WNS3781;etofcb;ug/l;NVT;OW;29973-13-5;;CONCTTE
+1142;etofcbsfn;ethiofencarbsulfon;Bestrijdingsmiddelen;ug/l;WNS5330;etofcbsfn;ug/l;NVT;OW; ;;CONCTTE
+1143;etofcbSO;ethiofencarbsulfoxide;Bestrijdingsmiddelen;ug/l;WNS3881;etofcbSO;ug/l;NVT;OW; ;;CONCTTE
+1145;etpfs;ethoprofos;Bestrijdingsmiddelen;ug/l;WNS991;etpfs;ug/l;NVT;OW;13194-48-4;;CONCTTE
+1156;fenamfs;fenamifos;Bestrijdingsmiddelen;ug/l;WNS4560;fenamfs;ug/l;NVT;OW;22224-92-6;;CONCTTE
+1158;fenhxAd;fenhexamide;Bestrijdingsmiddelen;ug/l;WNS5758;fenhxAd;ug/l;NVT;OW;126833-17-8;;CONCTTE
+1160;fenmdfm;fenmedifam;Bestrijdingsmiddelen;ug/l;WNS5307;fenmdfm;ug/l;NVT;OW;13684-63-4;;CONCTTE
+1155;fenmdn;fenamidon;Bestrijdingsmiddelen;ug/l;WNS5754;fenmdn;ug/l;NVT;OW;161326-34-7;;CONCTTE
+1159;feNO2ton;fenitrothion;Bestrijdingsmiddelen;ug/l;WNS1068;feNO2ton;ug/l;NVT;OW;122-14-5;;CONCTTE
+1161;fenOxcb;fenoxycarb;Bestrijdingsmiddelen;ug/l;WNS4346;fenOxcb;ug/l;NVT;OW;72490-01-8;;CONCTTE
+1162;fenppdn;fenpropidin;Bestrijdingsmiddelen;ug/l;WNS5760;fenppdn;ug/l;NVT;OW;67306-00-7;;CONCTTE
+1163;fenppmf;fenpropimorf;Bestrijdingsmiddelen;ug/l;WNS4561;fenppmf;ug/l;NVT;OW;67564-91-4;;CONCTTE
+1165;fenrn;fenuron;Bestrijdingsmiddelen;ug/l;WNS4377;fenrn;ug/l;NVT;OW;101-42-8;;CONCTTE
+1164;fenton;fenthion;Bestrijdingsmiddelen;ug/l;WNS1062;fenton;ug/l;NVT;OW;55-38-9;;CONCTTE
+1166;fenvlrt;fenvaleraat;Bestrijdingsmiddelen;ug/l;WNS1072;fenvlrt;ug/l;NVT;OW;51630-58-1;;CONCTTE
+1167;fipnl;fipronil;Bestrijdingsmiddelen;ug/l;WNS5762;fipnl;ug/l;NVT;OW;120068-37-3;;CONCTTE
+1168;floncmd;flonicamid;Bestrijdingsmiddelen;ug/l;WNS5764;floncmd;ug/l;NVT;OW;158062-67-0;;CONCTTE
+1178;flrtmn;flurtamon;Bestrijdingsmiddelen;ug/l;WNS5780;flrtmn;ug/l;NVT;OW;96525-23-4;;CONCTTE
+1169;fluazfp;fluazifop;Bestrijdingsmiddelen;ug/l;WNS5296;fluazfp;ug/l;NVT;OW; ;;CONCTTE
+1171;fluaznm;fluazinam;Bestrijdingsmiddelen;ug/l;WNS3814;fluaznm;ug/l;NVT;OW;79622-59-6;;CONCTTE
+1174;flufnct;flufenacet;Bestrijdingsmiddelen;ug/l;WNS5771;flufnct;ug/l;NVT;OW;142459-58-3;;CONCTTE
+1177;flurOxpr;fluroxypyr;Bestrijdingsmiddelen;ug/l;WNS4562;flurOxpr;ug/l;NVT;OW;69377-81-7;;CONCTTE
+1179;flutlnl;flutolanil;Bestrijdingsmiddelen;ug/l;WNS4345;flutlnl;ug/l;NVT;OW;66332-96-5;;CONCTTE
+1183;fosfmdn;fosfamidon;Bestrijdingsmiddelen;ug/l;WNS4565;fosfmdn;ug/l;NVT;OW;13171-21-6;;CONCTTE
+1181;fosln;fosalon;Bestrijdingsmiddelen;ug/l;WNS4563;fosln;ug/l;NVT;OW;2310-17-0;;CONCTTE
+1185;furlxl;furalaxyl;Bestrijdingsmiddelen;ug/l;WNS3815;furlxl;ug/l;NVT;OW;57646-30-7;;CONCTTE
+1186;furtocb;furathiocarb;Bestrijdingsmiddelen;ug/l;WNS5169;furtocb;ug/l;NVT;OW;65907-30-4;;CONCTTE
+1188;glufsnt;glufosinaat;Bestrijdingsmiddelen;ug/l;WNS3878;glufsnt;ug/l;NVT;OW; ;;CONCTTE
+1189;glyfst;glyfosaat;Bestrijdingsmiddelen;ug/l;WNS1097;glyfst;ug/l;NVT;OW;1071-83-6;;CONCTTE
+1191;halOxfC2oxC2;haloxyfop-ethoxyethyl;Bestrijdingsmiddelen;ug/l;WNS5794;halOxfC2oxC2;ug/l;NVT;OW;87237-48-7;;CONCTTE
+1190;halOxfp;haloxyfop;Bestrijdingsmiddelen;ug/l;WNS4863;halOxfp;ug/l;NVT;OW;69806-34-4;;CONCTTE
+1194;HCB;hexachloorbenzeen;Bestrijdingsmiddelen;ug/l;WNS1114;HCB;ug/l;NVT;OW;118-74-1;;CONCTTE
+1193;heptnfs;heptenofos;Bestrijdingsmiddelen;ug/l;WNS1135;heptnfs;ug/l;NVT;OW;23560-59-0;;CONCTTE
+1195;hextazx;hexythiazox;Bestrijdingsmiddelen;ug/l;WNS5286;hextazx;ug/l;NVT;OW;78587-05-0;;CONCTTE
+1192;HpCl;heptachloor;Bestrijdingsmiddelen;ug/l;WNS1132;HpCl;ug/l;NVT;OW;76-44-8;;CONCTTE
+1021;HTI;4-hydroxy-2,5,6-trichloorisoftalonitril;Bestrijdingsmiddelen;ug/l;WNS4878;HTI;ug/l;NVT;OW;28343-61-5;;CONCTTE
+1196;hymxzl;hymexazool;Bestrijdingsmiddelen;ug/l;WNS5798;hymxzl;ug/l;NVT;OW;10004-44-1;;CONCTTE
+1204;iC3yantnlAd;isopropylanthranilamide;Bestrijdingsmiddelen;ug/l;WNS7035;iC3yantnlAd;ug/l;NVT;OW; ;;CONCTTE
+1202;iC4yactt;iso-butylacetaat;Bestrijdingsmiddelen;ug/l;WNS4568;iC4yactt;ug/l;NVT;OW; ;;CONCTTE
+1203;idn;isodrin;Bestrijdingsmiddelen;ug/l;WNS1189;idn;ug/l;NVT;OW;465-73-6;;CONCTTE
+1198;imdcpd;imidacloprid;Bestrijdingsmiddelen;ug/l;WNS4364;imdcpd;ug/l;NVT;OW;138261-41-3;;CONCTTE
+1197;imzll;imazalil;Bestrijdingsmiddelen;ug/l;WNS4431;imzll;ug/l;NVT;OW;35554-44-0;;CONCTTE
+1199;indxcb;indoxacarb;Bestrijdingsmiddelen;ug/l;WNS4390;indxcb;ug/l;NVT;OW;173584-44-6;;CONCTTE
+1207;iOaftl;isoxaflutool;Bestrijdingsmiddelen;ug/l;WNS5305;iOaftl;ug/l;NVT;OW;141112-29-0;;CONCTTE
+1200;iOxnl;ioxynil;Bestrijdingsmiddelen;ug/l;WNS4567;iOxnl;ug/l;NVT;OW;1689-83-4;;CONCTTE
+1201;ipDon;iprodion;Bestrijdingsmiddelen;ug/l;WNS4430;ipDon;ug/l;NVT;OW;36734-19-7;;CONCTTE
+1208;IppnC4ycbmt;joodpropynylbutylcarbamaat;Bestrijdingsmiddelen;ug/l;WNS5624;IppnC4ycbmt;ug/l;NVT;OW; ;;CONCTTE
+1205;iptrn;isoproturon;Bestrijdingsmiddelen;ug/l;WNS1184;iptrn;ug/l;NVT;OW;34123-59-6;;CONCTTE
+1206;isxbn;isoxaben;Bestrijdingsmiddelen;ug/l;WNS6893;isxbn;ug/l;NVT;OW;82558-50-7;;CONCTTE
+1209;kresOxmC1y;kresoxim-methyl;Bestrijdingsmiddelen;ug/l;WNS4344;kresOxmC1y;ug/l;NVT;OW;143390-89-0;;CONCTTE
+1210;lcyhltn;lambda-cyhalothrin;Bestrijdingsmiddelen;ug/l;WNS5808;lcyhltn;ug/l;NVT;OW;91465-08-6;;CONCTTE
+1212;lencl;lenacil;Bestrijdingsmiddelen;ug/l;WNS3817;lencl;ug/l;NVT;OW;2164-08-1;;CONCTTE
+1213;linrn;linuron;Bestrijdingsmiddelen;ug/l;WNS1253;linrn;ug/l;NVT;OW;330-55-2;;CONCTTE
+1215;malton;malathion;Bestrijdingsmiddelen;ug/l;WNS1259;malton;ug/l;NVT;OW;121-75-5;;CONCTTE
+1012;MCPA;2-methyl-4-chloorfenoxyazijnzuur;Bestrijdingsmiddelen;ug/l;WNS1279;MCPA;ug/l;NVT;OW;94-74-6;;CONCTTE
+1013;MCPB;2-methyl-4-chloorfenoxyboterzuur;Bestrijdingsmiddelen;ug/l;WNS1283;MCPB;ug/l;NVT;OW; ;;CONCTTE
+1217;MCPP;mecoprop;Bestrijdingsmiddelen;ug/l;WNS1287;MCPP;ug/l;NVT;OW;93-65-2;;CONCTTE
+1245;Mctfs;monocrotofos;Bestrijdingsmiddelen;ug/l;WNS6271;Mctfs;ug/l;NVT;OW;6923-22-4;;CONCTTE
+1220;meston;mesotrion;Bestrijdingsmiddelen;ug/l;WNS5818;meston;ug/l;NVT;OW;104206-82-8;;CONCTTE
+1238;metbmrn;metobromuron;Bestrijdingsmiddelen;ug/l;WNS1299;metbmrn;ug/l;NVT;OW;3060-89-7;;CONCTTE
+1221;metbtazrn;metabenzthiazuron;Bestrijdingsmiddelen;ug/l;WNS1264;metbtazrn;ug/l;NVT;OW;18691-97-9;;CONCTTE
+1242;metbzn;metribuzin;Bestrijdingsmiddelen;ug/l;WNS1302;metbzn;ug/l;NVT;OW;21087-64-9;;CONCTTE
+1239;metlCl;metolachloor;Bestrijdingsmiddelen;ug/l;WNS1350;metlCl;ug/l;NVT;OW;51218-45-2;;CONCTTE
+1229;metml;methomyl;Bestrijdingsmiddelen;ug/l;WNS1305;metml;ug/l;NVT;OW;16752-77-5;;CONCTTE
+1226;metocb;methiocarb;Bestrijdingsmiddelen;ug/l;WNS4379;metocb;ug/l;NVT;OW;2032-65-7;;CONCTTE
+1227;metocbsfn;methiocarbsulfon;Bestrijdingsmiddelen;ug/l;WNS3818;metocbsfn;ug/l;NVT;OW;2179-25-1;;CONCTTE
+1228;metocbSO;methiocarbsulfoxide;Bestrijdingsmiddelen;ug/l;WNS5332;metocbSO;ug/l;NVT;OW;2635-10-1;;CONCTTE
+1240;metxrn;metoxuron;Bestrijdingsmiddelen;ug/l;WNS1310;metxrn;ug/l;NVT;OW;19937-59-8;;CONCTTE
+1243;mevfs;mevinfos;Bestrijdingsmiddelen;ug/l;WNS2734;mevfs;ug/l;NVT;OW;7786-34-7;;CONCTTE
+1246;Mlnrn;monolinuron;Bestrijdingsmiddelen;ug/l;WNS1326;Mlnrn;ug/l;NVT;OW;1746-81-2;;CONCTTE
+1222;mlxl;metalaxyl;Bestrijdingsmiddelen;ug/l;WNS3843;mlxl;ug/l;NVT;OW;57837-19-1;;CONCTTE
+1224;mmtn;metamitron;Bestrijdingsmiddelen;ug/l;WNS3845;mmtn;ug/l;NVT;OW;41394-05-2;;CONCTTE
+1247;monrn;monuron;Bestrijdingsmiddelen;ug/l;WNS1345;monrn;ug/l;NVT;OW;150-68-5;;CONCTTE
+1225;mzCl;metazachloor;Bestrijdingsmiddelen;ug/l;WNS1353;mzCl;ug/l;NVT;OW;67129-08-2;;CONCTTE
+1248;nicsfrn;nicosulfuron;Bestrijdingsmiddelen;ug/l;WNS5306;nicsfrn;ug/l;NVT;OW;111991-09-4;;CONCTTE
+1250;nuarml;nuarimol;Bestrijdingsmiddelen;ug/l;WNS5164;nuarml;ug/l;NVT;OW;63284-71-9;;CONCTTE
+1252;Oaml;oxamyl;Bestrijdingsmiddelen;ug/l;WNS1458;Oaml;ug/l;NVT;OW;23135-22-0;;CONCTTE
+1253;Oasfrn;oxasulfuron;Bestrijdingsmiddelen;ug/l;WNS8391;Oasfrn;ug/l;NVT;OW;144651-06-9;;CONCTTE
+1251;omtat;omethoaat;Bestrijdingsmiddelen;ug/l;WNS4829;omtat;ug/l;NVT;OW;1113-02-6;;CONCTTE
+1258;PeClFol;pentachloorfenol;Bestrijdingsmiddelen;ug/l;WNS1576;PeClFol;ug/l;NVT;OW;87-86-5;;CONCTTE
+1259;PeClNO2Ben;pentachloornitrobenzeen (quintozeen);Bestrijdingsmiddelen;ug/l;WNS2994;PeClNO2Ben;ug/l;NVT;OW;82-68-8;;CONCTTE
+1256;penccrn;pencycuron;Bestrijdingsmiddelen;ug/l;WNS4378;penccrn;ug/l;NVT;OW;66063-05-6;;CONCTTE
+1255;pencnzl;penconazool;Bestrijdingsmiddelen;ug/l;WNS4569;pencnzl;ug/l;NVT;OW;66246-88-6;;CONCTTE
+1257;pendmtln;pendimethalin;Bestrijdingsmiddelen;ug/l;WNS4352;pendmtln;ug/l;NVT;OW;40487-42-1;;CONCTTE
+1260;permtn;permethrin;Bestrijdingsmiddelen;ug/l;WNS1600;permtn;ug/l;NVT;OW;52645-53-1;;CONCTTE
+1261;piclnfn;picolinafen;Bestrijdingsmiddelen;ug/l;WNS7038;piclnfn;ug/l;NVT;OW;137641-05-5;;CONCTTE
+1263;pirmcb;pirimicarb;Bestrijdingsmiddelen;ug/l;WNS1595;pirmcb;ug/l;NVT;OW;23103-98-2;;CONCTTE
+1264;proClaz;prochloraz;Bestrijdingsmiddelen;ug/l;WNS4354;proClaz;ug/l;NVT;OW;67747-09-5;;CONCTTE
+1265;procmdn;procymidon;Bestrijdingsmiddelen;ug/l;WNS4355;procmdn;ug/l;NVT;OW;32809-16-8;;CONCTTE
+1266;profm;profam;Bestrijdingsmiddelen;ug/l;WNS4570;profm;ug/l;NVT;OW;122-42-9;;CONCTTE
+1272;propAd;propyzamide;Bestrijdingsmiddelen;ug/l;WNS3384;propAd;ug/l;NVT;OW;23950-58-5;;CONCTTE
+1267;propCl;propachloor;Bestrijdingsmiddelen;ug/l;WNS1621;propCl;ug/l;NVT;OW;1918-16-7;;CONCTTE
+1270;propcnzl;propiconazol;Bestrijdingsmiddelen;ug/l;WNS4444;propcnzl;ug/l;NVT;OW;60207-90-1;;CONCTTE
+1268;propmcbHCl;propamocarb hydrochloride;Bestrijdingsmiddelen;ug/l;WNS6223;propmcbHCl;ug/l;NVT;OW;25606-41-1;;CONCTTE
+1271;propxr;propoxur;Bestrijdingsmiddelen;ug/l;WNS1624;propxr;ug/l;NVT;OW;114-26-1;;CONCTTE
+1269;propzne;propazine;Bestrijdingsmiddelen;ug/l;WNS1617;propzne;ug/l;NVT;OW;139-40-2;;CONCTTE
+1273;prosfcb;prosulfocarb;Bestrijdingsmiddelen;ug/l;WNS3385;prosfcb;ug/l;NVT;OW;52888-80-9;;CONCTTE
+1274;prosfrn;prosulfuron;Bestrijdingsmiddelen;ug/l;WNS7039;prosfrn;ug/l;NVT;OW;94125-34-5;;CONCTTE
+1275;pTolsfAd;p-tolueensulfonamide;Bestrijdingsmiddelen;ug/l;WNS3387;pTolsfAd;ug/l;NVT;OW;70-55-3;;CONCTTE
+1276;pymtzne;pymetrozine;Bestrijdingsmiddelen;ug/l;WNS5872;pymtzne;ug/l;NVT;OW;123312-89-0;;CONCTTE
+1278;pyrazfs;pyrazofos;Bestrijdingsmiddelen;ug/l;WNS1636;pyrazfs;ug/l;NVT;OW;13457-18-6;;CONCTTE
+1280;pyrdbn;pyridaben;Bestrijdingsmiddelen;ug/l;WNS4867;pyrdbn;ug/l;NVT;OW;96489-71-3;;CONCTTE
+1282;pyrfnx;pyrifenox;Bestrijdingsmiddelen;ug/l;WNS4868;pyrfnx;ug/l;NVT;OW;88283-41-4;;CONCTTE
+1283;pyrmtnl;pyrimethanil;Bestrijdingsmiddelen;ug/l;WNS4356;pyrmtnl;ug/l;NVT;OW;53112-28-0;;CONCTTE
+1284;pyrpxfn;pyriproxyfen;Bestrijdingsmiddelen;ug/l;WNS4869;pyrpxfn;ug/l;NVT;OW;95737-68-1;;CONCTTE
+1285;quinmrc;quinmerac;Bestrijdingsmiddelen;ug/l;WNS5876;quinmrc;ug/l;NVT;OW;90717-03-6;;CONCTTE
+1289;sDDD;som 2,4- en 4,4-DDD;Bestrijdingsmiddelen;ug/l;WNS2377;sDDD;ug/l;NVT;OW; ;;CONCTTE
+1290;sDDE;som 2,4- en 4,4-DDE;Bestrijdingsmiddelen;ug/l;WNS2381;sDDE;ug/l;NVT;OW; ;;CONCTTE
+1291;sDDT;som 2,4- en 4,4-DDT;Bestrijdingsmiddelen;ug/l;WNS2385;sDDT;ug/l;NVT;OW; ;;CONCTTE
+1295;sdmtn;som o-demeton en s-demeton;Bestrijdingsmiddelen;ug/l;WNS839;sdmtn;ug/l;NVT;OW; ;;CONCTTE
+1293;sHpClepO;som heptachloorepoxide (som cis- en trans-);Bestrijdingsmiddelen;ug/l;WNS7831;sHpClepO;ug/l;NVT;OW;1024-57-3;;CONCTTE
+1288;simzne;simazine;Bestrijdingsmiddelen;ug/l;WNS1820;simzne;ug/l;NVT;OW;122-34-9;;CONCTTE
+1294;sMCPB24DB;som MCPB en 24DB;Bestrijdingsmiddelen;ug/l;WNS1741;sMCPB24DB;ug/l;NVT;OW; ;;CONCTTE
+1296;spinsd;spinosad;Bestrijdingsmiddelen;ug/l;WNS5309;spinsd;ug/l;NVT;OW; ;;CONCTTE
+1297;spirdcfn;spirodiclofen;Bestrijdingsmiddelen;ug/l;WNS5887;spirdcfn;ug/l;NVT;OW;148477-71-8;;CONCTTE
+1300;sulcton;sulcotrion;Bestrijdingsmiddelen;ug/l;WNS4982;sulcton;ug/l;NVT;OW;99105-77-8;;CONCTTE
+1301;sulftp;sulfotep;Bestrijdingsmiddelen;ug/l;WNS4573;sulftp;ug/l;NVT;OW;3689-24-5;;CONCTTE
+1309;T4Clvfs;tetrachloorvinfos (mixed isomeren);Bestrijdingsmiddelen;ug/l;WNS4584;T4Clvfs;ug/l;NVT;OW; ;;CONCTTE
+1326;Tadmnl;triadimenol;Bestrijdingsmiddelen;ug/l;WNS4357;Tadmnl;ug/l;NVT;OW;55219-65-3;;CONCTTE
+1327;Talt;triallaat;Bestrijdingsmiddelen;ug/l;WNS4435;Talt;ug/l;NVT;OW;2303-17-5;;CONCTTE
+1328;Tazfs;triazofos;Bestrijdingsmiddelen;ug/l;WNS1953;Tazfs;ug/l;NVT;OW;24017-47-8;;CONCTTE
+1320;tCldn;trans-chloordaan;Bestrijdingsmiddelen;ug/l;WNS528;tCldn;ug/l;NVT;OW; ;;CONCTTE
+1329;Tcpr;triclopyr;Bestrijdingsmiddelen;ug/l;WNS4580;Tcpr;ug/l;NVT;OW;55335-06-3;;CONCTTE
+1302;tebcnzl;tebuconazol;Bestrijdingsmiddelen;ug/l;WNS4434;tebcnzl;ug/l;NVT;OW;107534-96-3;;CONCTTE
+1303;tebfprd;tebufenpyrad;Bestrijdingsmiddelen;ug/l;WNS5301;tebfprd;ug/l;NVT;OW;119168-77-3;;CONCTTE
+1304;tefbzrn;teflubenzuron;Bestrijdingsmiddelen;ug/l;WNS4576;tefbzrn;ug/l;NVT;OW;83121-18-0;;CONCTTE
+1306;teldn;telodrin;Bestrijdingsmiddelen;ug/l;WNS2103;teldn;ug/l;NVT;OW;297-78-9;;CONCTTE
+1307;terbtn;terbutrin;Bestrijdingsmiddelen;ug/l;WNS2127;terbtn;ug/l;NVT;OW;886-50-0;;CONCTTE
+1308;terC4yazne;terbutylazine;Bestrijdingsmiddelen;ug/l;WNS2885;terC4yazne;ug/l;NVT;OW;5915-41-3;;CONCTTE
+1331;Tfmzl;triflumizool;Bestrijdingsmiddelen;ug/l;WNS4581;Tfmzl;ug/l;NVT;OW;68694-11-1;;CONCTTE
+1332;Tfrlne;trifluraline;Bestrijdingsmiddelen;ug/l;WNS2032;Tfrlne;ug/l;NVT;OW;1582-09-8;;CONCTTE
+1333;TfsfrnC1y;triflusulfuron-methyl;Bestrijdingsmiddelen;ug/l;WNS5925;TfsfrnC1y;ug/l;NVT;OW;126535-15-7;;CONCTTE
+1330;Tfxsbn;trifloxystrobin;Bestrijdingsmiddelen;ug/l;WNS4366;Tfxsbn;ug/l;NVT;OW;141517-21-7;;CONCTTE
+1311;thiacpd;thiacloprid;Bestrijdingsmiddelen;ug/l;WNS5903;thiacpd;ug/l;NVT;OW;111988-49-9;;CONCTTE
+1312;thiamtxm;thiamethoxam;Bestrijdingsmiddelen;ug/l;WNS5904;thiamtxm;ug/l;NVT;OW;153719-23-4;;CONCTTE
+1313;thifsfrnC1y;thifensulfuron-methyl;Bestrijdingsmiddelen;ug/l;WNS8393;thifsfrnC1y;ug/l;NVT;OW;79277-27-3;;CONCTTE
+1322;tHpClepO;trans-heptachloorepoxide;Bestrijdingsmiddelen;ug/l;WNS2435;tHpClepO;ug/l;NVT;OW; ;;CONCTTE
+1323;tmevfs;trans-mevinfos;Bestrijdingsmiddelen;ug/l;WNS4361;tmevfs;ug/l;NVT;OW; ;;CONCTTE
+1314;tofnC1y;thiofanaat-methyl;Bestrijdingsmiddelen;ug/l;WNS5302;tofnC1y;ug/l;NVT;OW;23564-05-8;;CONCTTE
+1317;tolcfsC1y;tolclofos-methyl;Bestrijdingsmiddelen;ug/l;WNS1375;tolcfsC1y;ug/l;NVT;OW;57018-04-9;;CONCTTE
+1318;tolfande;tolylfluanide;Bestrijdingsmiddelen;ug/l;WNS4579;tolfande;ug/l;NVT;OW;731-27-1;;CONCTTE
+1315;tomtn;thiometon;Bestrijdingsmiddelen;ug/l;WNS4578;tomtn;ug/l;NVT;OW;640-15-3;;CONCTTE
+1324;tpermtn;trans-permethrin;Bestrijdingsmiddelen;ug/l;WNS4882;tpermtn;ug/l;NVT;OW; ;;CONCTTE
+1325;tpyrfnx;trans-pyrifenox;Bestrijdingsmiddelen;ug/l;WNS7911;tpyrfnx;ug/l;NVT;OW; ;;CONCTTE
+1335;vamdton;vamidothion;Bestrijdingsmiddelen;ug/l;WNS5930;vamdton;ug/l;NVT;OW;2275-23-2;;CONCTTE
+1336;vinczln;vinclozolin;Bestrijdingsmiddelen;ug/l;WNS3877;vinczln;ug/l;NVT;OW;50471-44-8;;CONCTTE
+1088;cpyrfnx;cis-pyrifenox;Bestrijdingsmiddelen;ug/l;WNS7913;cpyrfnx;ug/l;NVT;OW; ;;CONCTTE
+1098;cyftn;cyfluthrin;Bestrijdingsmiddelen;ug/l;WNS4856;cyftn;ug/l;NVT;OW;68359-37-5;;CONCTTE
+1292;sDtocbmt CS2;som dithiocarbamaten in CS2;Bestrijdingsmiddelen;ug CS2/l;WNS5994;sDtocbmt;ug/l;CS2;OW; ;;CONCTTE
+1029;acnfn;Aclonifen;Bestrijdingsmiddelen;ug/l;WNS5287;acnfn;ug/l;NVT;OW;74070-46-5;;CONCTTE
+1310;T4Hflmde;Tetrahydroftaalimide;Bestrijdingsmiddelen;ug/l;WNS4351;T4Hflmde;ug/l;NVT;OW;1469-48-3;;CONCTTE
+1133;dodne;Dodine;Bestrijdingsmiddelen;ug/l;WNS4558;dodne;ug/l;NVT;OW; ;;CONCTTE
+1298;spirmsfn;Spiromesifen;Bestrijdingsmiddelen;ug/l;WNS5888;spirmsfn;ug/l;NVT;OW; ;;CONCTTE
+1299;spirttmt;Spirotetramat;Bestrijdingsmiddelen;ug/l;WNS9838;spirttmt;ug/l;NVT;OW; ;;CONCTTE
+1050;bifnzt;bifenazaat;Bestrijdingsmiddelen;ug/l;WNS5664;bifnzt;ug/l;NVT;OW;149877-41-8;;CONCTTE
+1170;fluazfPC4y;fluazifop-P-butyl;Bestrijdingsmiddelen;ug/l;WNS5854;fluazfPC4y;ug/l;NVT;OW;79241-46-6;;CONCTTE
+1175;flumoxzn;flumioxazin;Bestrijdingsmiddelen;ug/l;WNS5773;flumoxzn;ug/l;NVT;OW;103361-09-7;;CONCTTE
+1184;fostazt;fosthiazaat;Bestrijdingsmiddelen;ug/l;WNS5786;fostazt;ug/l;NVT;OW;98886-44-3;;CONCTTE
+1218;mepnprm;mepanipyrim;Bestrijdingsmiddelen;ug/l;WNS5341;mepnprm;ug/l;NVT;OW;110235-47-7;;CONCTTE
+1241;metfnn;metrafenon;Bestrijdingsmiddelen;ug/l;WNS5833;metfnn;ug/l;NVT;OW;220899-03-6;;CONCTTE
+1254;pacbtzl;paclobutrazol;Bestrijdingsmiddelen;ug/l;WNS5334;pacbtzl;ug/l;NVT;OW;76738-62-0;;CONCTTE
+1262;piprnbO;piperonyl-butoxide;Bestrijdingsmiddelen;ug/l;WNS5108;piprnbO;ug/l;NVT;OW;51-03-6;;CONCTTE
+1287;quizlfPC2y;quizalofop-P-ethyl;Bestrijdingsmiddelen;ug/l;WNS5881;quizlfPC2y;ug/l;NVT;OW;100646-51-3;;CONCTTE
+1027;acqncl;acequinocyl;Bestrijdingsmiddelen;ug/l;WNS5628;acqncl;ug/l;NVT;OW;57960-19-7;;CONCTTE
+1044;azdrtn;azadirachtin;Bestrijdingsmiddelen;ug/l;WNS5647;azdrtn;ug/l;NVT;OW;11141-17-6;;CONCTTE
+1063;C14C18C16C18;C14-C18 en C16-C18 onverzadigd alkylamine-ethoxylaat;Bestrijdingsmiddelen;ug/l;WNS12067;C14C18C16C18;ug/l;NVT;OW;68155-39-5;;CONCTTE
+1071;chloftzn;chlofentezin;Bestrijdingsmiddelen;ug/l;WNS4583;chloftzn;ug/l;NVT;OW;74115-24-5;;CONCTTE
+1076;ClmqCl;chloormequatchloride;Bestrijdingsmiddelen;ug/l;WNS12068;ClmqCl;ug/l;NVT;OW;999-81-5;;CONCTTE
+1094;cyatnlple;cyantraniliprole;Bestrijdingsmiddelen;ug/l;WNS11813;cyatnlple;ug/l;NVT;OW;736994-63-1;;CONCTTE
+1097;cyfmtfn;cyflumetofen;Bestrijdingsmiddelen;ug/l;WNS10416;cyfmtfn;ug/l;NVT;OW;400882-07-7;;CONCTTE
+1134;emmtbzat;emamectin-benzoaat;Bestrijdingsmiddelen;ug/l;WNS11527;emmtbzat;ug/l;NVT;OW;155569-91-8;;CONCTTE
+1140;etfn;ethefon;Bestrijdingsmiddelen;ug/l;WNS5747;etfn;ug/l;NVT;OW;16672-87-0;;CONCTTE
+1151;C2yetourum;ethyleenthioureum;Bestrijdingsmiddelen;ug/l;WNS994;C2yetourum;ug/l;NVT;OW;96-45-7;;CONCTTE
+1153;etxzl;etoxazool;Bestrijdingsmiddelen;ug/l;WNS5753;etxzl;ug/l;NVT;OW;153233-91-1;;CONCTTE
+1157;fenbtSnO;fenbutatinoxide;Bestrijdingsmiddelen;ug/l;WNS5714;fenbtSnO;ug/l;NVT;OW;13356-08-6;;CONCTTE
+1172;flubDad;flubendiamide;Bestrijdingsmiddelen;ug/l;WNS11529;flubDad;ug/l;NVT;OW;272451-65-7;;CONCTTE
+1173;fludoxnl;fludioxonil;Bestrijdingsmiddelen;ug/l;WNS5770;fludoxnl;ug/l;NVT;OW;131341-86-1;;CONCTTE
+1180;folpt;folpet;Bestrijdingsmiddelen;ug/l;WNS4380;folpt;ug/l;NVT;OW;133-07-3;;CONCTTE
+1182;fostl;fosetyl;Bestrijdingsmiddelen;ug/l;WNS12069;fostl;ug/l;NVT;OW;15845-66-6;;CONCTTE
+1211;lamnrn;laminaran;Bestrijdingsmiddelen;ug/l;WNS12070;lamnrn;ug/l;NVT;OW;9008-22-4;;CONCTTE
+1214;lufnrn;lufenuron;Bestrijdingsmiddelen;ug/l;WNS5809;lufnrn;ug/l;NVT;OW;103055-07-8;;CONCTTE
+9900;mlxl mlxlM;metalaxyl als metalaxyl-M;Niet gebruiken;ug/l;WNS5819; ; ; ;OW; ;;CONCTTE
+1279;pyrtnn;pyrethrinen;Bestrijdingsmiddelen;ug/l;WNS11843;pyrtnn;ug/l;NVT;OW;8003-34-7;;CONCTTE
+1281;pyrdll;pyridalyl;Bestrijdingsmiddelen;ug/l;WNS11534;pyrdll;ug/l;NVT;OW;179101-81-6;;CONCTTE
+1286;quincmn;quinoclamin;Bestrijdingsmiddelen;ug/l;WNS5877;quincmn;ug/l;NVT;OW;2797-51-5;;CONCTTE
+1305;teftn;tefluthrin;Bestrijdingsmiddelen;ug/l;WNS5898;teftn;ug/l;NVT;OW;79538-32-2;;CONCTTE
+1316;thirm;thiram;Bestrijdingsmiddelen;ug/l;WNS3767;thirm;ug/l;NVT;OW;137-26-8;;CONCTTE
+1230;C1oxfnzde;methoxyfenozide;Bestrijdingsmiddelen;ug/l;WNS5824;C1oxfnzde;ug/l;NVT;OW;161050-58-4;;CONCTTE
+1074;Cldn;chloordaan;Bestrijdingsmiddelen;ug/l;WNS4184;Cldn;ug/l;NVT;OW;57-74-9;;CONCTTE
+1109;desC2ytC4yaz;desethylterbutylazine;Bestrijdingsmiddelen;ug/l;WNS5031;desC2ytC4yaz;ug/l;NVT;OW;30125-63-4;;CONCTTE
+1277;pyrcsbn;pyraclostrobin;Bestrijdingsmiddelen;ug/l;WNS5308;pyrcsbn;ug/l;NVT;OW;175013-18-0;;CONCTTE
+1082;chloratnlpl;chlorantraniliprole;Bestrijdingsmiddelen;ug/l;WNS11525;chloratnlpl;ug/l;NVT;OW;500008-45-7;;CONCTTE
+1176;fluoprm;fluopyram;Bestrijdingsmiddelen;ug/l;WNS11530;fluoprm;ug/l;NVT;OW;658066-35-4;;CONCTTE
+1039;amttdn;ametoctradin;Bestrijdingsmiddelen;ug/l;WNS12037;amttdn;ug/l;NVT;OW;865318-97-4;;CONCTTE
+1095;cyazfAd;cyazofamide;Bestrijdingsmiddelen;ug/l;WNS5290;cyazfAd;ug/l;NVT;OW;120116-88-3;;CONCTTE
+1138;epxcnzl;epoxiconazool;Bestrijdingsmiddelen;ug/l;WNS5294;epxcnzl;ug/l;NVT;OW;133855-98-8;;CONCTTE
+1070;carftznC2y;carfentrazon-ethyl;Bestrijdingsmiddelen;ug/l;WNS5337;carftznC2y;ug/l;NVT;OW;128639-02-1;;CONCTTE
+1219;messfrnC1y;mesosulfuron-methyl;Bestrijdingsmiddelen;ug/l;WNS5817;messfrnC1y;ug/l;NVT;OW;208465-21-8;;CONCTTE
+1319;topmzn;topramezon;Bestrijdingsmiddelen;ug/l;WNS5909;topmzn;ug/l;NVT;OW;210631-68-8;;CONCTTE
+1334;TnxpcC2y;trinexapac-ethyl;Bestrijdingsmiddelen;ug/l;WNS5926;TnxpcC2y;ug/l;NVT;OW;95266-40-3;;CONCTTE
+1216;mandppAd;mandipropamide;Bestrijdingsmiddelen;ug/l;WNS8445;mandppAd;ug/l;NVT;OW;374726-62-2;;CONCTTE
+1321;tfluoxsbn;trans-fluoxastrobin;Bestrijdingsmiddelen;ug/l;WNS9946;tfluoxsbn;ug/l;NVT;OW;361377-29-9;;CONCTTE
+1244;milbmcA3;milbemycin A3;Bestrijdingsmiddelen;ug/l;WNS11469;milbmcA3;ug/l;NVT;OW; ;;CONCTTE
+2000;111TClC2a;1,1,1-trichloorethaan;Organisch;ug/l;WNS3;111TClC2a;ug/l;NVT;OW; ;;CONCTTE
+2002;112TClC2a;1,1,2-trichloorethaan;Organisch;ug/l;WNS7;112TClC2a;ug/l;NVT;OW; ;;CONCTTE
+2003;11DClC2a;1,1-dichloorethaan;Organisch;ug/l;WNS11;11DClC2a;ug/l;NVT;OW; ;;CONCTTE
+2004;11DClC2e;1,1-dichlooretheen;Organisch;ug/l;WNS3776;11DClC2e;ug/l;NVT;OW; ;;CONCTTE
+2005;123TClBen;1,2,3-trichloorbenzeen;Organisch;ug/l;WNS28;123TClBen;ug/l;NVT;OW; ;;CONCTTE
+2006;124TClBen;1,2,4-trichloorbenzeen;Organisch;ug/l;WNS42;124TClBen;ug/l;NVT;OW; ;;CONCTTE
+2007;12DClBen;1,2-dichloorbenzeen;Organisch;ug/l;WNS48;12DClBen;ug/l;NVT;OW; ;;CONCTTE
+2009;12DClC2e;1,2-dichlooretheen;Organisch;ug/l;WNS4162;12DClC2e;ug/l;NVT;OW; ;;CONCTTE
+2010;12DClC3a;1,2-dichloorpropaan;Organisch;ug/l;WNS57;12DClC3a;ug/l;NVT;OW; ;;CONCTTE
+2011;12xyln;1,2-xyleen;Organisch;ug/l;WNS61;12xyln;ug/l;NVT;OW; ;;CONCTTE
+2012;135TClBen;1,3,5-trichloorbenzeen;Organisch;ug/l;WNS67;135TClBen;ug/l;NVT;OW; ;;CONCTTE
+2013;13DClBen;1,3-dichloorbenzeen;Organisch;ug/l;WNS75;13DClBen;ug/l;NVT;OW; ;;CONCTTE
+2014;14DClBen;1,4-dichloorbenzeen;Organisch;ug/l;WNS92;14DClBen;ug/l;NVT;OW; ;;CONCTTE
+2015;17aestDol;17alpha-estradiol;Organisch;ug/l;WNS6031;17aestDol;ug/l;NVT;OW; ;;CONCTTE
+2025;2C1yC3ol;2-methylpropanol (iso-butanol);Organisch;ug/l;WNS4384;2C1yC3ol;ug/l;NVT;OW; ;;CONCTTE
+2023;2C4ol;2-butanol;Organisch;ug/l;WNS2617;2C4ol;ug/l;NVT;OW; ;;CONCTTE
+2027;AcNe;acenafteen;Organisch;ug/l;WNS399;AcNe;ug/l;NVT;OW;83-32-9;;CONCTTE
+2028;AcNy;acenaftyleen;Organisch;ug/l;WNS405;AcNy;ug/l;NVT;OW;208-96-8;;CONCTTE
+2029;amdTzinzr;amidotrizoinezuur;Organisch;ug/l;WNS5482;amdTzinzr;ug/l;NVT;OW; ;;CONCTTE
+2030;Ant;antraceen;Organisch;ug/l;WNS2241;Ant;ug/l;NVT;OW;120-12-7;;CONCTTE
+2032;BaA;benzo(a)antraceen;Organisch;ug/l;WNS503;BaA;ug/l;NVT;OW;56-55-3;;CONCTTE
+2033;BaP;benzo(a)pyreen;Organisch;ug/l;WNS513;BaP;ug/l;NVT;OW;50-32-8;;CONCTTE
+2034;BbF;benzo(b)fluorantheen;Organisch;ug/l;WNS520;BbF;ug/l;NVT;OW;205-99-2;;CONCTTE
+2031;Ben;benzeen;Organisch;ug/l;WNS546;Ben;ug/l;NVT;OW;71-43-2;;CONCTTE
+2035;BghiPe;benzo(ghi)peryleen;Organisch;ug/l;WNS576;BghiPe;ug/l;NVT;OW;191-24-2;;CONCTTE
+2037;bisFolA;bisfenol-A;Organisch;ug/l;WNS6035;bisFolA;ug/l;NVT;OW;80-05-7;;CONCTTE
+2036;BkF;benzo(k)fluorantheen;Organisch;ug/l;WNS591;BkF;ug/l;NVT;OW;207-08-9;;CONCTTE
+2045;C2OH;ethanol;Organisch;ug/l;WNS4386;C2OH;ug/l;NVT;OW;64-17-5;;CONCTTE
+2047;C2yBen;ethylbenzeen;Organisch;ug/l;WNS1016;C2yBen;ug/l;NVT;OW;100-41-4;;CONCTTE
+2061;C3ol;propanol;Organisch;ug/l;WNS4381;C3ol;ug/l;NVT;OW; ;;CONCTTE
+2039;Chr;chryseen;Organisch;ug/l;WNS673;Chr;ug/l;NVT;OW;218-01-9;;CONCTTE
+2038;ClBen;chloorbenzeen;Organisch;ug/l;WNS1271;ClBen;ug/l;NVT;OW;108-90-7;;CONCTTE
+2040;DBahAnt;dibenzo(a,h)antraceen;Organisch;ug/l;WNS814;DBahAnt;ug/l;NVT;OW;53-70-3;;CONCTTE
+2042;DC2yEtr;diethylether;Organisch;ug/l;WNS4554;DC2yEtr;ug/l;NVT;OW; ;;CONCTTE
+2041;DClC1a;dichloormethaan;Organisch;ug/l;WNS833;DClC1a;ug/l;NVT;OW;75-09-2;;CONCTTE
+2043;DiC3yEtr;diisopropylether;Organisch;ug/l;WNS2870;DiC3yEtr;ug/l;NVT;OW;108-20-3;;CONCTTE
+2044;esTol;estriol;Organisch;ug/l;WNS6024;esTol;ug/l;NVT;OW; ;;CONCTTE
+2046;etnetDol;ethinylestradiol;Organisch;ug/l;WNS6030;etnetDol;ug/l;NVT;OW;57-63-6;;CONCTTE
+2048;Fen;fenantreen;Organisch;ug/l;WNS2301;Fen;ug/l;NVT;OW;85-01-8;;CONCTTE
+2050;Fle;fluoreen;Organisch;ug/l;WNS1078;Fle;ug/l;NVT;OW;86-73-7;;CONCTTE
+2049;Flu;fluorantheen;Organisch;ug/l;WNS1085;Flu;ug/l;NVT;OW;206-44-0;;CONCTTE
+2051;HxClbtDen;hexachloorbutadieen;Organisch;ug/l;WNS2708;HxClbtDen;ug/l;NVT;OW;87-68-3;;CONCTTE
+2052;HxClC2a;hexachloorethaan;Organisch;ug/l;WNS1121;HxClC2a;ug/l;NVT;OW;67-72-1;;CONCTTE
+2053;InP;indeno(1,2,3-cd)pyreen;Organisch;ug/l;WNS2315;InP;ug/l;NVT;OW;193-39-5;;CONCTTE
+2054;metfmne;metformine;Organisch;ug/l;WNS8737;metfmne;ug/l;NVT;OW;657-24-9;;CONCTTE
+2055;metpll;metoprolol;Organisch;ug/l;WNS4989;metpll;ug/l;NVT;OW;37350-58-6;;CONCTTE
+2056;minrlole;minerale olie;Organisch;ug/l;WNS2331;minrlole;ug/l;NVT;OW; ;;CONCTTE
+2058;Naf;naftaleen;Organisch;ug/l;WNS1387;Naf;ug/l;NVT;OW;91-20-3;;CONCTTE
+2059;oestn;oestron;Organisch;ug/l;WNS6028;oestn;ug/l;NVT;OW;53-16-7;;CONCTTE
+2019;PCB101;2,2,4,5,5-pentachloorbifenyl;Organisch;ug/l;WNS1482;PCB101;ug/l;NVT;OW; ;;CONCTTE
+2021;PCB118;2,3,4,4,5-pentachloorbifenyl;Organisch;ug/l;WNS1489;PCB118;ug/l;NVT;OW; ;;CONCTTE
+2017;PCB138;2,2,3,4,4,5-hexachloorbifenyl;Organisch;ug/l;WNS1496;PCB138;ug/l;NVT;OW; ;;CONCTTE
+2018;PCB153;2,2,4,4,5,5-hexachloorbifenyl;Organisch;ug/l;WNS1503;PCB153;ug/l;NVT;OW; ;;CONCTTE
+2016;PCB180;2,2,3,4,4,5,5-heptachloorbifenyl;Organisch;ug/l;WNS1510;PCB180;ug/l;NVT;OW; ;;CONCTTE
+2022;PCB28;2,4,4-trichloorbifenyl;Organisch;ug/l;WNS1517;PCB28;ug/l;NVT;OW; ;;CONCTTE
+2020;PCB52;2,2,5,5-tetrachloorbifenyl;Organisch;ug/l;WNS1532;PCB52;ug/l;NVT;OW; ;;CONCTTE
+2060;PeClBen;pentachloorbenzeen;Organisch;ug/l;WNS1645;PeClBen;ug/l;NVT;OW;608-93-5;;CONCTTE
+2062;Pyr;pyreen;Organisch;ug/l;WNS1632;Pyr;ug/l;NVT;OW;129-00-0;;CONCTTE
+2063;s1314xyln;som 1,3- en 1,4-xyleen;Organisch;ug/l;WNS1665;s1314xyln;ug/l;NVT;OW; ;;CONCTTE
+2064;sPAK10;som 10 polyaromatische koolwaterstoffen (VROM);Organisch;ug/l;WNS2390;sPAK10;ug/l;NVT;OW; ;;CONCTTE
+2065;sPAK16;som 16 polyaromatische koolwaterstoffen (EPA);Organisch;ug/l;WNS2526;sPAK16;ug/l;NVT;OW; ;;CONCTTE
+2066;sPAK6;som 6 polyaromatische koolwaterstoffen (Borneff);Organisch;ug/l;WNS2395;sPAK6;ug/l;NVT;OW; ;;CONCTTE
+2067;sPCB7;som 7 polychloorbifenylen PCB28, 52, 101, 118, 138, 153, 180;Organisch;ug/l;WNS2400;sPCB7;ug/l;NVT;OW; ;;CONCTTE
+2070;sxyln;som xyleen-isomeren;Organisch;ug/l;WNS1796;sxyln;ug/l;NVT;OW; ;;CONCTTE
+2077;t12DClC2e;trans-1,2-dichlooretheen;Organisch;ug/l;WNS2423;t12DClC2e;ug/l;NVT;OW; ;;CONCTTE
+2075;T4ClC1a;tetrachloormethaan (tetra);Organisch;ug/l;WNS2431;T4ClC1a;ug/l;NVT;OW;56-23-5;;CONCTTE
+2074;T4ClC2e;tetrachlooretheen (per);Organisch;ug/l;WNS1935;T4ClC2e;ug/l;NVT;OW;127-18-4;;CONCTTE
+2078;TC4yPO4;tributylfosfaat;Organisch;ug/l;WNS1961;TC4yPO4;ug/l;NVT;OW;126-73-8;;CONCTTE
+2079;TClBen;trichloorbenzeen;Organisch;ug/l;WNS1777;TClBen;ug/l;NVT;OW;12002-48-1;;CONCTTE
+2081;TClC1a;trichloormethaan (chloroform);Organisch;ug/l;WNS1987;TClC1a;ug/l;NVT;OW;67-66-3;;CONCTTE
+2080;TClC2e;trichlooretheen (tri);Organisch;ug/l;WNS1983;TClC2e;ug/l;NVT;OW;79-01-6;;CONCTTE
+2076;Tol;tolueen;Organisch;ug/l;WNS2118;Tol;ug/l;NVT;OW;108-88-3;;CONCTTE
+2008;12DClC2a;1,2-dichloorethaan;Organisch;ug/l;WNS3896;12DClC2a;ug/l;NVT;OW; ;;CONCTTE
+2026;8aestDol;8alpha-estradiol;Organisch;ug/l;WNS6026;8aestDol;ug/l;NVT;OW; ;;CONCTTE
+2069;sVOX;som vluchtige organische halogeenverbindingen;Organisch;ug Cl/l;WNS3378;sVOX;ug/l;Cl;OW; ;;CONCTTE
+2068;sEOX;som extraheerbare organische halogeenverbindingen;Organisch;ug Cl/l;WNS2296;sEOX;ug/l;Cl;OW; ;;CONCTTE
+2073;ttC4yactt;tertiair-butylacetaat;Organisch;ug/l;WNS4870;ttC4yactt;ug/l;NVT;OW;540-88-5;;CONCTTE
+2001;1122T4ClC2a;1,1,2,2-tetrachloorethaan;Organisch;ug/l;WNS4603;1122T4ClC2a;ug/l;NVT;OW; ;;CONCTTE
+2072;styrn;styreen;Organisch;ug/l;WNS4282;styrn;ug/l;NVT;OW;100-42-5;;CONCTTE
+2024;2C4on;2-butanon (MEK);Organisch;mg/l;WNS4540;2C4on;mg/l;NVT;OW;78-93-3;;CONCTTE
+2504;TC4ySn;tributyltin (kation);Organometalen;ug/l;WNS1967;TC4ySn;ug/l;NVT;OW;36643-28-4;;CONCTTE
+2506;TFySn;trifenyltin (kation);Organometalen;ug/l;WNS2037;TFySn;ug/l;NVT;OW; ;;CONCTTE
+2500;DC4ySn;dibutyltin (kation);Organometalen;ug/l;WNS2280;DC4ySn;ug/l;NVT;OW; ;;CONCTTE
+2502;DFySn;difenyltin (kation);Organometalen;ug/l;WNS4342;DFySn;ug/l;NVT;OW; ;;CONCTTE
+2501;DccC6ySn;dicyclohexyltin (kation);Organometalen;ug/l;WNS7082;DccC6ySn;ug/l;NVT;OW; ;;CONCTTE
+2503;T4C4ySn;tetrabutyltin;Organometalen;ug/l;WNS4454;T4C4ySn;ug/l;NVT;OW;1461-25-2;;CONCTTE
+2505;TccC6ySn;tricyclohexyltin (kation);Organometalen;ug/l;WNS2842;TccC6ySn;ug/l;NVT;OW; ;;CONCTTE
+3000;ALKLTT [PW];Alkaliteit [poriewater];Poriewater;meq/l;WNS10032; ;meq/l;NVT;PW; ;;ALKLTT
+3001;Al [PW];aluminium [poriewater];Poriewater;mg/l;WNS10031;Al;mg/l;NVT;PW; ;;CONCTTE
+3002;NH4 [PW];ammonium [poriewater];Poriewater;mg N/l;WNS9470;NH4;mg/l;N;PW; ;;CONCTTE
+3003;Ca [PW];calcium [poriewater];Poriewater;mg/l;WNS9472;Ca;mg/l;NVT;PW; ;;CONCTTE
+3004;Cl [PW];chloride [poriewater];Poriewater;mg/l;WNS9468;Cl;mg/l;NVT;PW;16887-00-6;;CONCTTE
+3005;PO4 [PW];fosfaat [poriewater];Poriewater;mg P/l;WNS9466;PO4;mg/l;P;PW; ;;CONCTTE
+3006;Ptot [PW];fosfor totaal [poriewater];Poriewater;mg P/l;WNS9467;Ptot;mg/l;P;PW; ;;CONCTTE
+3007;GELDHD [PW];Geleidendheid [poriewater];Poriewater;mS/m; ; ;mS/m;25oC;PW; ;;GELDHD
+3008;Fe [PW];ijzer [poriewater];Poriewater;mg/l;WNS9471;Fe;mg/l;NVT;PW;7439-89-6;;CONCTTE
+3009;K [PW];kalium [poriewater];Poriewater;mg/l;WNS10036;K;mg/l;NVT;PW; ;;CONCTTE
+3010;CO2 [PW];kooldioxide [poriewater];Poriewater;mg/l;WNS10033;CO2;mg/l;NVT;PW; ;;CONCTTE
+3011;Mg [PW];magnesium [poriewater];Poriewater;mg/l;WNS10037;Mg;mg/l;NVT;PW; ;;CONCTTE
+3012;Mn [PW];mangaan [poriewater];Poriewater;mg/l;WNS10038;Mn;mg/l;NVT;PW;7439-96-5;;CONCTTE
+3013;Na [PW];natrium [poriewater];Poriewater;mg/l;WNS10039;Na;mg/l;NVT;PW; ;;CONCTTE
+3014;NO3 [PW];nitraat [poriewater];Poriewater;mg N/l;WNS10040;NO3;mg/l;N;PW; ;;CONCTTE
+3015;Si [PW];silicium [poriewater];Poriewater;mg/l;WNS10041;Si;mg/l;NVT;PW; ;;CONCTTE
+3016;sNO3NO2 [PW];som nitraat en nitriet [poriewater];Poriewater;mg N/l;WNS9469;sNO3NO2;mg/l;N;PW; ;;CONCTTE
+3017;SO4 [PW];sulfaat [poriewater];Poriewater;mg/l;WNS9473;SO4;mg/l;NVT;PW;14808-79-8;;CONCTTE
+3018;HCO3 [PW];waterstofcarbonaat [poriewater];Poriewater;mg/l;WNS10035;HCO3;mg/l;NVT;PW; ;;CONCTTE
+3019;pH [PW];Zuurgraad [poriewater];Poriewater;DIMSLS;WNS9465; ;DIMSLS;NVT;PW; ;;pH
+222;FeII;ijzer (tweewaardig);Metalen totaal;mg/l;WNS1048;FeII;mg/l;NVT;OW;15438-31-0;;CONCTTE
+903;X_CODNT;X-coordinaat;Monstername;m;WNS11483; ;m;NVT;OW; ;;X_CODNT
+904;Y_CODNT;Y-coordinaat;Monstername;m;WNS11485; ;m;NVT;OW; ;;Y_CODNT
+90;GELDHD INSU;Geleidendheid bij 25oC in situ;Algemeen;mS/m;WNS5988; ;mS/m;25oC;OW; ;;GELDHD
+490;CPC;C-fycocyanine (WISP);Blauwalgen;ug/l;WNS11508;fyccanne;ug/l;INSU;OW;11016-15-2;;CONCTTE
+2400;PFBA;perfluorbutaanzuur;PFAS;ng/l;WNS12178;PFBA;ng/l;NVT;OW;375-22-4;;CONCTTE
+2401;PFPA;perfluorpentaanzuur;PFAS;ng/l;WNS12179;PFPA;ng/l;NVT;OW;2706-90-3;;CONCTTE
+2402;PFHxA;perfluorhexaanzuur;PFAS;ng/l;WNS12180;PFHxA;ng/l;NVT;OW;307-24-4;;CONCTTE
+2403;PFHpA;perfluorheptaanzuur;PFAS;ng/l;WNS12181;PFHpA;ng/l;NVT;OW;375-85-9;;CONCTTE
+2404;PFOA;perfluoroctaanzuur (lineair);PFAS;ng/l;WNS12174;PFOA;ng/l;NVT;OW;335-67-1;;CONCTTE
+2405;PFNA;perfluornonaanzuur;PFAS;ng/l;WNS12182;PFNA;ng/l;NVT;OW;375-95-1;;CONCTTE
+2406;PFDA;perfluordecaanzuur;PFAS;ng/l;WNS12183;PFDA;ng/l;NVT;OW;335-76-2;;CONCTTE
+2407;PFUdA;perfluorundecaanzuur;PFAS;ng/l;WNS12184;PFUdA;ng/l;NVT;OW;2058-94-8;;CONCTTE
+2408;PFOS;perfluoroctaansulfonaat (lineair);PFAS;ng/l;WNS12171;PFOS;ng/l;NVT;OW;1763-23-1;;CONCTTE
+2409;L_PFBS;perfluor-1-butaansulfonaat (lineair);PFAS;ng/l;WNS12185;L_PFBS;ng/l;NVT;OW;375-73-5;;CONCTTE
+2410;L_PFHxS;perfluor-1-hexaansulfonaat (lineair);PFAS;ng/l;WNS12186;L_PFHxS;ng/l;NVT;OW;355-46-4;;CONCTTE
+2411;2PFC6yC2a1sf;2-(perfluorhexyl)ethaan-1-sulfonzuur;PFAS;ng/l;WNS12187;2PFC6yC2a1sf;ng/l;NVT;OW;27619-97-2;;CONCTTE
+2412;FRD-903;2,3,3,3-tetrafluor-2-(heptafluorpropoxy)propionzuur;PFAS;ng/l;WNS12048;FRD-903;ng/l;NVT;OW;13252-13-6;;CONCTTE
+1338;propmcb;propamocarb;Bestrijdingsmiddelen;ug/l;WNS4571;propmcb;ug/l;NVT;OW;24579-73-5;;CONCTTE
+2082;123benztazl;1,2,3-benzotriazool;Organisch;ug/l;WNS9489;123benztazl;ug/l;NVT;OW;95-14-7;;CONCTTE
+9000;METHBLONT;Methyleenblauwontkleuring (redoxindicator);Verouderd;h; ; ;h;NVT;OW; ;;
+9001;sChER;som cholinesteraseremmers;Verouderd;ug/l;WNS2973;sChER;ug/l;NVT;OW; ;;CONCTTE
+9002;PGETAL;P-getal (pH 8,3);Verouderd;meq/l;WNS6691; ;meq/l;NVT;OW; ;;PGETAL
+9003;MGETAL;M-getal (pH 4,4);Verouderd;meq/l;WNS6692; ;meq/l;NVT;OW; ;;MGETAL
+9004;ZUURVERBRUIK;Zuurverbruik (pH 4,2);Verouderd;meq/l; ; ;meq/l;NVT;OW; ;;
+9005;BASEVERBRUIK;Baseverbruik (pH 8,5);Verouderd;meq/l; ; ;meq/l;NVT;OW; ;;
+9006;S8;Zwavel (octylzwavel);Verouderd;ug/l; ;S8;ug/l;NVT;OW; ;;CONCTTE
+9010;sCKW;som gechloreerde koolwaterstoffen;Verouderd;ug/l; ;sCKW;ug/l; ;OW; ;;CONCTTE
+9012;VISPROEF;Visproef overleving (5 guppen);Verouderd;n na 96u; ; ; ; ;OW; ;;
+9009;sOCB;som organochloorbestrijdingsmiddelen;Verouderd;ug/l; ;sOCB;ug/l;NVT;NT; ;;CONCTTE
+453;TRICBHZA_DNA;Trichobilharzia (zwemmersjeuk) aangetroffen eDNA;Zwemmersjeuk;DIMSLS;WNS12226;TRICBHZA;DIMSLS;DNAKPN;OW; ;;AANWZHD
+902;BEMTIJD;Bemonsteringstijdstip;Monstername;tijd; ; ; ; ;NT; ;;
+9007;PESTT;Pesticiden totaal;Verouderd;ng/l; ;spest;ng/l;NVT;NT; ;;CONCTTE
+9008;SOM N-PEST;Som stikstof pesticiden;Verouderd;ug/l; ; ;ug/l;NVT;NT; ;;CONCTTE
+701;Ntot [DL];Stikstof totaal [drijflaag];Drijflaag;mg N/l; ;Ntot;mg/l;N;DL; ;;CONCTTE
+221;Tl;Thallium;Metalen totaal;ug/l;WNS2099;Tl;ug/l;NVT;OW;7440-28-0;;CONCTTE
+1337;sDtocbmt;som dithiocarbamaten;Bestrijdingsmiddelen;ug/l;WNS1715;sDtocbmt;ug/l;NVT;OW; ;;CONCTTE
+507;HH [BER];Hardheid (berekend);Berekend;mg/l;WNS5150; ;mg/l;CaCO3;OW; ;;HH
+460;dmMC-LR;7-desmethylmicrocystine-LR;Blauwalgtoxines;ug/l;WNS9477;dmMC-LR;ug/l;NVT;OW;134842-07-2;;CONCTTE
+423;ANNO;Anabaenopsis biovolume;Blauwalgen;mm3/l;WNS9327;ANNO;mm3/l;NVT;OW; ;;VOLMFTE
+424;CUSP;Cuspidothrix biovolume;Blauwalgen;mm3/l;WNS10401;CUSP;mm3/l;NVT;OW; ;;VOLMFTE
+425;CYLI;Cylindrospermopsis biovolume;Blauwalgen;mm3/l;WNS9324;CYLI;mm3/l;NVT;OW; ;;VOLMFTE
+426;GLTR;Gloeotrichia biovolume;Blauwalgen;mm3/l;WNS9307;GLTR;mm3/l;NVT;OW; ;;VOLMFTE
+427;OSCL;Oscillatoria [1] biovolume;Blauwalgen;mm3/l;WNS10402;OSCL;mm3/l;NVT;OW; ;;VOLMFTE
+428;PHOI;Phormidium [1] biovolume;Blauwalgen;mm3/l;WNS12373;PHOI;mm3/l;NVT;OW; ;;VOLMFTE
+429;sPTOXSBAGN;som potentieel toxische blauwalgen biovolume;Blauwalgen;mm3/l;WNS12453;sPTOXSBAGN;mm3/l;NVT;OW; ;;VOLMFTE
+430;ANNO [cel];Anabaenopsis;Blauwalgen;n/ml;WNS9328;ANNO;n/ml;cel;OW; ;;AANTPVLME
+431;CUSP [cel];Cuspidothrix;Blauwalgen;n/ml;WNS12372;CUSP;n/ml;cel;OW; ;;AANTPVLME
+432;CYLI [cel];Cylindrospermopsis;Blauwalgen;n/ml;WNS9323;CYLI;n/ml;cel;OW; ;;AANTPVLME
+433;GLTR [cel];Gloeotrichia;Blauwalgen;n/ml;WNS9306;GLTR;n/ml;cel;OW; ;;AANTPVLME
+434;OSCL [cel];Oscillatoria [1];Blauwalgen;n/ml;WNS12371;OSCL;n/ml;cel;OW; ;;AANTPVLME
+435;PHOI [cel];Phormidium [1];Blauwalgen;n/ml;WNS12370;PHOI;n/ml;cel;OW; ;;AANTPVLME
+436;sPTOXSBAGN [cel];som potentieel toxische blauwalgen;Blauwalgen;n/ml;WNS12452;sPTOXSBAGN;n/ml;cel;OW; ;;AANTPVLME
+461;dmMC-RR;7-desmethylmicrocystine-RR;Blauwalgtoxines;ug/l;WNS9478;dmMC-RR;ug/l;NVT;OW;131022-02-1;;CONCTTE
+462;MC-LF;microcystine-LF;Blauwalgtoxines;ug/l;WNS9406;MC-LF;ug/l;NVT;OW;154037-70-4;;CONCTTE
+463;MC-LR;microcystine-LR;Blauwalgtoxines;ug/l;WNS9403;MC-LR;ug/l;NVT;OW;101043-37-2;;CONCTTE
+464;MC-LW;microcystine-LW;Blauwalgtoxines;ug/l;WNS9405;MC-LW;ug/l;NVT;OW;157622-02-1;;CONCTTE
+465;MC-LY;microcystine-LY;Blauwalgtoxines;ug/l;WNS9407;MC-LY;ug/l;NVT;OW;123304-10-9;;CONCTTE
+466;MC-RR;microcystine-RR;Blauwalgtoxines;ug/l;WNS9404;MC-RR;ug/l;NVT;OW;111755-37-4;;CONCTTE
+467;MC-YR;microcystine-YR;Blauwalgtoxines;ug/l;WNS9408;MC-YR;ug/l;NVT;OW;101064-48-6;;CONCTTE
+468;nodlrn;nodularin;Blauwalgtoxines;ug/l;WNS9409;nodlrn;ug/l;NVT;OW;118399-22-7;;CONCTTE
+2083;25811T4OaC12;2,5,8,11-tetraoxadodecaan;Organisch;ug/l;WNS9294;25811T4OaC12;ug/l;NVT;OW;112-49-2;;CONCTTE
+2084;acsfmeK;acesulfame K;Organisch;ug/l;WNS11285;acsfmeK;ug/l;NVT;OW;55589-62-3;;CONCTTE
+2085;Aofnzn;aminofenazon;Organisch;ug/l;WNS5011;Aofnzn;ug/l;NVT;OW;58-15-1;;CONCTTE
+2086;atnll;atenolol;Organisch;ug/l;WNS5496;atnll;ug/l;NVT;OW;29122-68-7;;CONCTTE
+2087;atvttne;atorvastatine;Organisch;ug/l;WNS8896;atvttne;ug/l;NVT;OW;134523-00-5;;CONCTTE
+2088;aztmcne;azitromycine;Organisch;ug/l;WNS5441;aztmcne;ug/l;NVT;OW;83905-01-5;;CONCTTE
+2089;benzcine;benzocaine;Organisch;ug/l;WNS11581;benzcine;ug/l;NVT;OW;94-09-7;;CONCTTE
+2090;bezafbt;bezafibraat;Organisch;ug/l;WNS4995;bezafbt;ug/l;NVT;OW;41859-67-0;;CONCTTE
+2091;bis2C1oxC2yE;bis(2-methoxyethyl)ether;Organisch;ug/l;WNS9877;bis2C1oxC2yE;ug/l;NVT;OW;111-96-6;;CONCTTE
+2092;carbdx;carbadox;Organisch;ug/l;WNS11582;carbdx;ug/l;NVT;OW;6804-07-5;;CONCTTE
+2093;Clafncl;chlooramfenicol;Organisch;ug/l;WNS5001;Clafncl;ug/l;NVT;OW;56-75-7;;CONCTTE
+2094;cipfxcne;ciprofloxacine;Organisch;ug/l;WNS5450;cipfxcne;ug/l;NVT;OW;85721-33-1;;CONCTTE
+2095;clartmcne;claritromycine;Organisch;ug/l;WNS5451;clartmcne;ug/l;NVT;OW;81103-11-9;;CONCTTE
+2096;clindmcne;clindamycine;Organisch;ug/l;WNS5452;clindmcne;ug/l;NVT;OW;18323-44-9;;CONCTTE
+2097;cloxclne;cloxacilline;Organisch;ug/l;WNS5004;cloxclne;ug/l;NVT;OW;61-72-3;;CONCTTE
+2098;clozpne;clozapine;Organisch;ug/l;WNS8717;clozpne;ug/l;NVT;OW;5786-21-0;;CONCTTE
+2099;cortsn;cortison;Organisch;ug/l;WNS8899;cortsn;ug/l;NVT;OW;53-06-5;;CONCTTE
+2100;cycffAd;cyclofosfamide;Organisch;ug/l;WNS4990;cycffAd;ug/l;NVT;OW;50-18-0;;CONCTTE
+2101;dapsn;dapson;Organisch;ug/l;WNS5007;dapsn;ug/l;NVT;OW;80-08-0;;CONCTTE
+2102;dexmtsn;dexamethason;Organisch;ug/l;WNS8900;dexmtsn;ug/l;NVT;OW;50-02-2;;CONCTTE
+2103;Dclofnc;diclofenac;Organisch;ug/l;WNS4994;Dclofnc;ug/l;NVT;OW;15307-86-5;;CONCTTE
+2104;Dcloxclne;dicloxacilline;Organisch;ug/l;WNS5005;Dcloxclne;ug/l;NVT;OW;3116-76-5;;CONCTTE
+2105;DmTdzl;dimetridazol;Organisch;ug/l;WNS5477;DmTdzl;ug/l;NVT;OW;551-92-8;;CONCTTE
+2106;Dpyrdml;dipyridamol;Organisch;ug/l;WNS8734;Dpyrdml;ug/l;NVT;OW;58-32-2;;CONCTTE
+437;CHLFa balg [BER FL];Chlorofyl-a blauwalg [berekend fluoroprobe];Blauwalgen;ug/l;WNS9317; ;ug/l;toxblauw;OW; ;;CONCTTE
+1353;E-mfmzn;E-metaflumizon;Bestrijdingsmiddelen;ug/l;WNS13324;E-mfmzn;ug/l;NVT;OW;852403-68-0;;CONCTTE
+1354;Z-mfmzn;Z-metaflumizon;Bestrijdingsmiddelen;ug/l;WNS13325;Z-mfmzn;ug/l;NVT;OW;139970-56-2;;CONCTTE
+2107;ertmcne;erytromycine;Organisch;ug/l;WNS4986;ertmcne;ug/l;NVT;OW;114-07-8;;CONCTTE
+2108;fenzn;fenazon (antipyrine);Organisch;ug/l;WNS4983;fenzn;ug/l;NVT;OW;60-80-0;;CONCTTE
+2109;fenfbt;fenofibraat;Organisch;ug/l;WNS4984;fenfbt;ug/l;NVT;OW;49562-28-9;;CONCTTE
+2110;fentrl;fenoterol;Organisch;ug/l;WNS5009;fentrl;ug/l;NVT;OW;13392-18-2;;CONCTTE
+2111;florfncl;florfenicol;Organisch;ug/l;WNS11583;florfncl;ug/l;NVT;OW;76639-94-6;;CONCTTE
+2112;fluoxtne;fluoxetine;Organisch;ug/l;WNS11201;fluoxtne;ug/l;NVT;OW;54910-89-3;;CONCTTE
+2113;furzldn;furazolidon;Organisch;ug/l;WNS5457;furzldn;ug/l;NVT;OW;67-45-8;;CONCTTE
+2114;fursmde;furosemide;Organisch;ug/l;WNS8733;fursmde;ug/l;NVT;OW;54-31-9;;CONCTTE
+2115;gabptne;gabapentine;Organisch;ug/l;WNS8721;gabptne;ug/l;NVT;OW;60142-96-3;;CONCTTE
+2116;HCltazde;hydrochloorthiazide;Organisch;ug/l;WNS9035;HCltazde;ug/l;NVT;OW;58-93-5;;CONCTTE
+2117;ibpfn;ibuprofen;Organisch;ug/l;WNS4993;ibpfn;ug/l;NVT;OW;15687-27-1;;CONCTTE
+2118;iffAd;ifosfamide;Organisch;ug/l;WNS5504;iffAd;ug/l;NVT;OW;3778-73-2;;CONCTTE
+2119;indmtcne;indometacine;Organisch;ug/l;WNS4998;indmtcne;ug/l;NVT;OW;53-86-1;;CONCTTE
+2120;irbstan;irbesartan;Organisch;ug/l;WNS9034;irbstan;ug/l;NVT;OW;138402-11-6;;CONCTTE
+2121;jopmdl;jopamidol;Organisch;ug/l;WNS5486;jopmdl;ug/l;NVT;OW;60166-93-0;;CONCTTE
+2122;ketpfn;ketoprofen;Organisch;ug/l;WNS4999;ketpfn;ug/l;NVT;OW;22071-15-4;;CONCTTE
+2123;levtrctm;levetiracetam;Organisch;ug/l;WNS8729;levtrctm;ug/l;NVT;OW;102767-28-2;;CONCTTE
+2124;lidcine;lidocaine;Organisch;ug/l;WNS5507;lidcine;ug/l;NVT;OW;137-58-6;;CONCTTE
+2125;lincmcne;lincomycine;Organisch;ug/l;WNS5012;lincmcne;ug/l;NVT;OW;154-21-2;;CONCTTE
+2126;mebdzl;mebendazol;Organisch;ug/l;WNS5476;mebdzl;ug/l;NVT;OW;31431-39-7;;CONCTTE
+2127;C1y1Hbztazl;methyl-1H-benzotriazool;Organisch;ug/l;WNS11797;C1y1Hbztazl;ug/l;NVT;OW;29385-43-1;;CONCTTE
+2128;metndzl;metronidazol;Organisch;ug/l;WNS5459;metndzl;ug/l;NVT;OW;443-48-1;;CONCTTE
+2129;nafclne;nafcilline;Organisch;ug/l;WNS5003;nafclne;ug/l;NVT;OW;147-52-4;;CONCTTE
+2130;napxn;naproxen;Organisch;ug/l;WNS4996;napxn;ug/l;NVT;OW;22204-53-1;;CONCTTE
+2131;Naccmt;natriumcyclamaat;Organisch;ug/l;WNS11286;Naccmt;ug/l;NVT;OW;139-05-9;;CONCTTE
+2132;oladmcn;oleandomycin;Organisch;ug/l;WNS11466;oladmcn;ug/l;NVT;OW;3922-90-5;;CONCTTE
+2133;Oaclne;oxacilline;Organisch;ug/l;WNS5002;Oaclne;ug/l;NVT;OW;66-79-5;;CONCTTE
+2134;oxzpm;oxazepam;Organisch;ug/l;WNS8714;oxzpm;ug/l;NVT;OW;604-75-1;;CONCTTE
+2135;parctml;paracetamol;Organisch;ug/l;WNS5480;parctml;ug/l;NVT;OW;103-90-2;;CONCTTE
+2136;poxflne;pentoxifylline;Organisch;ug/l;WNS5495;poxflne;ug/l;NVT;OW;6493-05-6;;CONCTTE
+2137;pipprn;pipamperon;Organisch;ug/l;WNS8718;pipprn;ug/l;NVT;OW;1893-33-0;;CONCTTE
+2138;primdn;primidon;Organisch;ug/l;WNS4991;primdn;ug/l;NVT;OW;125-33-7;;CONCTTE
+2139;progtrn;progesteron;Organisch;ug/l;WNS5016;progtrn;ug/l;NVT;OW;57-83-0;;CONCTTE
+2140;propnll;propranolol;Organisch;ug/l;WNS5500;propnll;ug/l;NVT;OW;525-66-6;;CONCTTE
+2141;rondzl;ronidazol;Organisch;ug/l;WNS5466;rondzl;ug/l;NVT;OW;7681-76-7;;CONCTTE
+2142;roxtmcne;roxitromycine;Organisch;ug/l;WNS5017;roxtmcne;ug/l;NVT;OW;80214-83-1;;CONCTTE
+2143;saccrne;saccharine;Organisch;ug/l;WNS11287;saccrne;ug/l;NVT;OW;81-07-2;;CONCTTE
+2144;salbtml;salbutamol;Organisch;ug/l;WNS5502;salbtml;ug/l;NVT;OW;18559-94-9;;CONCTTE
+2145;sotll;sotalol;Organisch;ug/l;WNS5501;sotll;ug/l;NVT;OW;3930-20-9;;CONCTTE
+2146;sulfClprdzne;sulfachloorpyridazine;Organisch;ug/l;WNS5467;sulfClprdzne;ug/l;NVT;OW;80-32-0;;CONCTTE
+2147;sulfdazne;sulfadiazine;Organisch;ug/l;WNS5468;sulfdazne;ug/l;NVT;OW;68-35-9;;CONCTTE
+2148;sulfdmtoxne;sulfadimethoxine;Organisch;ug/l;WNS5469;sulfdmtoxne;ug/l;NVT;OW;122-11-2;;CONCTTE
+2149;sulfdmdne;sulfadimidine;Organisch;ug/l;WNS5008;sulfdmdne;ug/l;NVT;OW;57-68-1;;CONCTTE
+2150;sulfmrzn;sulfamerazin;Organisch;ug/l;WNS5470;sulfmrzn;ug/l;NVT;OW;127-79-7;;CONCTTE
+2151;sulfmtoazl;sulfamethoxazol;Organisch;ug/l;WNS5471;sulfmtoazl;ug/l;NVT;OW;723-46-6;;CONCTTE
+2152;sulfqoxlne;sulfaquinoxaline;Organisch;ug/l;WNS5472;sulfqoxlne;ug/l;NVT;OW;59-40-5;;CONCTTE
+2153;tamxfn;tamoxifen;Organisch;ug/l;WNS5505;tamxfn;ug/l;NVT;OW;10540-29-1;;CONCTTE
+2154;terbtlne;terbutaline;Organisch;ug/l;WNS5503;terbtlne;ug/l;NVT;OW;23031-25-6;;CONCTTE
+2155;TEGDME;tetraethyleenglycoldimethylether;Organisch;ug/l;WNS11807;TEGDME;ug/l;NVT;OW;143-24-8;;CONCTTE
+2156;tiamlne;tiamuline;Organisch;ug/l;WNS5014;tiamlne;ug/l;NVT;OW;55297-95-5;;CONCTTE
+2157;tramdl;tramadol;Organisch;ug/l;WNS8904;tramdl;ug/l;NVT;OW;27203-92-5;;CONCTTE
+2158;Tccbn;triclocarban;Organisch;ug/l;WNS11584;Tccbn;ug/l;NVT;OW;101-20-2;;CONCTTE
+2159;TPPO;trifenylfosfineoxide;Organisch;ug/l;WNS8614;TPPO;ug/l;NVT;OW;791-28-6;;CONCTTE
+2160;Tmtpm;trimethoprim;Organisch;ug/l;WNS5010;Tmtpm;ug/l;NVT;OW;738-70-5;;CONCTTE
+2161;tylsne;tylosine;Organisch;ug/l;WNS5474;tylsne;ug/l;NVT;OW;1401-69-0;;CONCTTE
+2162;valum;valium;Organisch;ug/l;WNS5506;valum;ug/l;NVT;OW;439-14-5;;CONCTTE
+2163;valstan;valsartan;Organisch;ug/l;WNS9032;valstan;ug/l;NVT;OW;137862-53-4;;CONCTTE
+2164;warfrn;warfarin;Organisch;ug/l;WNS5932;warfrn;ug/l;NVT;OW;81-81-2;;CONCTTE
+271;Ti nf;Titaan opgelost;Metalen opgelost;ug/l;WNS4095;Ti;ug/l;nf;OW;7440-32-6;;CONCTTE
+223;La;Lanthaan;Metalen totaal;ug/l;WNS8470;La;ug/l;NVT;OW;7439-91-0;;CONCTTE
+1339;acbzlSC1y;acibenzolar-S-methyl;Bestrijdingsmiddelen;ug/l;WNS5630;acbzlSC1y;ug/l;NVT;OW;135158-54-2;;CONCTTE
+1340;benzadnne;benzyladenine;Bestrijdingsmiddelen;ug/l;WNS5661;benzadnne;ug/l;NVT;OW;1214-39-7;;CONCTTE
+1341;clmqat;chloormequat;Bestrijdingsmiddelen;ug/l;WNS5693;clmqat;ug/l;NVT;OW;7003-89-6;;CONCTTE
+1342;cyffAd;cyflufenamide;Bestrijdingsmiddelen;ug/l;WNS11526;cyffAd;ug/l;NVT;OW;180409-60-3;;CONCTTE
+1343;C2e;etheen;Bestrijdingsmiddelen;ug/l;WNS3600;C2e;ug/l;NVT;OW;74-85-1;;CONCTTE
+1344;fenprAe;fenpyrazamine;Bestrijdingsmiddelen;ug/l;WNS11528;fenprAe;ug/l;NVT;OW;473798-59-3;;CONCTTE
+1345;fluprdfrn;flupyradifuron;Bestrijdingsmiddelen;ug/l;WNS12402;fluprdfrn;ug/l;NVT;OW;951659-40-8;;CONCTTE
+1346;formtnt;formetanaat;Bestrijdingsmiddelen;ug/l;WNS5784;formtnt;ug/l;NVT;OW;22259-30-9;;CONCTTE
+1347;fosC2yAl;fosetyl-aluminium;Bestrijdingsmiddelen;ug/l;WNS6183;fosC2yAl;ug/l;NVT;OW;39148-24-8;;CONCTTE
+1348;glufsntNH4;glufosinaat-ammonium;Bestrijdingsmiddelen;ug/l;WNS4467;glufsntNH4;ug/l;NVT;OW;77182-82-2;;CONCTTE
+1349;mepqCl;mepiquatchloride;Bestrijdingsmiddelen;ug/l;WNS11532;mepqCl;ug/l;NVT;OW;24307-26-4;;CONCTTE
+1350;mfmzn;metaflumizon;Bestrijdingsmiddelen;ug/l;WNS13041;mfmzn;ug/l;NVT;OW;139968-49-3;;CONCTTE
+1351;sedxne;sedaxane;Bestrijdingsmiddelen;ug/l;WNS12457;sedxne;ug/l;NVT;OW;874967-67-6;;CONCTTE
+1352;sulfafr;sulfoxaflor;Bestrijdingsmiddelen;ug/l;WNS12334;sulfafr;ug/l;NVT;OW;946578-00-3;;CONCTTE
+438;DOLIC;Dolichospermum biovolume;Blauwalgen;mm3/l;WNS13206;DOLIC1;mm3/l;NVT;OW;NVT;;VOLMFTE
+439;LIMNO;Limnothrix biovolume;Blauwalgen;mm3/l;WNS13212;LIMNO;mm3/l;NVT;OW;NVT;;VOLMFTE
+440;PSEUDA;Pseudanabaena biovolume;Blauwalgen;mm3/l;WNS13210;PSEUDA;mm3/l;NVT;OW;NVT;;VOLMFTE
+441;sANNADOLIC;som Anabaena en Dolichospermum biovolume;Blauwalgen;mm3/l;WNS13208;sANNADOLIC1;mm3/l;NVT;OW;NVT;;VOLMFTE
+442;DOLIC [cel];Dolichospermum;Blauwalgen;n/ml;WNS13207;DOLIC1;n/ml;cel;OW;NVT;;AANTPVLME
+443;LIMNO [cel];Limnothrix;Blauwalgen;n/ml;WNS13213;LIMNO;n/ml;cel;OW;NVT;;AANTPVLME
+444;PSEUDA [cel];Pseudanabaena;Blauwalgen;n/ml;WNS13211;PSEUDA;n/ml;cel;OW;NVT;;AANTPVLME
+445;sANNADOLIC [cel];som Anabaena en Dolichospermum;Blauwalgen;n/ml;WNS13209;sANNADOLIC1;n/ml;cel;OW;NVT;;AANTPVLME
+454;THAUMTPPCSNA;Thaumetopoea processionea (eikenprocessierups) aangetroffen;Zwemmersjeuk;DIMSLS;WNS12460;THAUMTPPCSNA;DIMSLS;DNAKPN;OW; ;;AANWZHD
+1359;emmtn;emamectin;Bestrijdingsmiddelen;ug/l;WNS8182;emmtn;ug/l;NVT;OW;119791-41-2;;CONCTTE
+1360;irgrl;irgarol;Bestrijdingsmiddelen;ug/l;WNS5803;irgrl;ug/l;NVT;OW;28159-98-0;;CONCTTE
+1361;quinoxfn;quinoxyfen;Bestrijdingsmiddelen;ug/l;WNS5149;quinoxfn;ug/l;NVT;OW;124495-18-7;;CONCTTE
+1362;spirxmne;spiroxamine;Bestrijdingsmiddelen;ug/l;WNS5889;spirxmne;ug/l;NVT;OW;118134-30-8;;CONCTTE
+1363;TbnrC1y;tribenuronmethyl;Bestrijdingsmiddelen;ug/l;WNS9415;TbnrC1y;ug/l;NVT;OW;101200-48-0;;CONCTTE
+1364;TClfn;trichloorfon;Bestrijdingsmiddelen;ug/l;WNS4293;TClfn;ug/l;NVT;OW;52-68-6;;CONCTTE
+2165;TFyPO4;trifenylfosfaat;Organisch;ug/l;WNS6614;TFyPO4;ug/l;NVT;OW;115-86-6;;CONCTTE
+2499;PEQ [BER];som PFOA-equivalenten (berekend);PFAS;ng/l; ; ;ng/l;NVT;OW; ;;CONCTTE
+2413;slinvertPFOS;som lineair en vertakte perfluoroctylsulfonaat;PFAS;ng/l;WNS13215;slinvertPFOS;ng/l;NVT;OW; ;;CONCTTE
+9901;DmtAd DmtnmdP;dimethenamide als dimethenamid-P;Niet gebruiken;ug/l;WNS5732; ; ; ;OW; ;;CONCTTE
+9902;metlCl SmtlCl;metolachloor als S-metolachloor;Niet gebruiken;ug/l;WNS5886; ; ; ;OW; ;;CONCTTE
+508;IONBLS;Ionenbalans;Berekend;%;WNS10496; ;%;NVT;OW; ;;IONBLS
+1355;milbmcA4;milbemycin A4;Bestrijdingsmiddelen;ug/l;WNS11472;milbmcA4;ug/l;NVT;OW;51596-11-3;;CONCTTE
+1357;nebrn;neburon;Bestrijdingsmiddelen;ug/l;WNS9507;nebrn;ug/l;NVT;OW;555-37-3;;CONCTTE
+1358;spintrm;spinetoram (mix);Bestrijdingsmiddelen;ug/l;WNS13137;spintrm;ug/l;NVT;OW;935545-74-7;;CONCTTE
+9903;DClpp DClppP;dichloorprop als dichloorprop-P;Niet gebruiken;ug/l;WNS5718; ;ug/l;NVT;OW; ;;CONCTTE
+9904;mecpp mecppP;mecoprop als mecoprop-P;Niet gebruiken;ug/l;WNS5814; ;ug/l;NVT;OW; ;;CONCTTE
+1356;smilbmcn;som milbemycin A3 + A4;Bestrijdingsmiddelen;ug/l;WNS13409;smilbmcn;ug/l;NVT;OW; ;;CONCTTE
+2414;11ClPF3OUdS;11-chlooreicosafluor-3-oxaundecaan-1-sulfonzuur;PFAS;ng/l;WNS13545;11ClPF3OUdS;ng/l;NVT;OW;763051-92-9;;CONCTTE
+2415;9-Cl-PF3ONS;9-chloorhexadecaanfluor-3-oxanon-1-sulfonzuur;PFAS;ng/l;WNS13544;9-Cl-PF3ONS;ng/l;NVT;OW;756426-58-1;;CONCTTE
+2416;ADONA;ammonium 4,8-dioxa-3H-perfluornonanoaat;PFAS;ng/l;WNS13543;ADONA;ng/l;NVT;OW;958445-44-8;;CONCTTE
+2417;cF16C10ezr;cis-hexadecafluor-2-deceenzuur;PFAS;ng/l;WNS12753;cF16C10ezr;ng/l;NVT;OW;70887-84-2;;CONCTTE
+2418;EtFOSAA;perfluoroctaansulfonylamide(N-ethyl)acetaat;PFAS;ng/l;WNS12763;EtFOSAA;ng/l;NVT;OW;2991-50-6;;CONCTTE
+2419;H-PFC10asfzr;1H,1H,2H,2H-perfluordecaansulfonzuur;PFAS;ng/l;WNS12752;H-PFC10asfzr;ng/l;NVT;OW;39108-34-4;;CONCTTE
+2420;H-PFC6asfzr;1H,1H,2H,2H-perfluorhexaansulfonzuur;PFAS;ng/l;WNS12751;H-PFC6asfzr;ng/l;NVT;OW;757124-72-4;;CONCTTE
+2421;L_PFDS;perfluor-1-decaansulfonaat (lineair);PFAS;ng/l;WNS12759;L_PFDS;ng/l;NVT;OW; ;;CONCTTE
+2422;L_PFHpS;perfluor-1-heptaansulfonaat (lineair);PFAS;ng/l;WNS12760;L_PFHpS;ng/l;NVT;OW; ;;CONCTTE
+2423;N-MeFOSAA;perfluoroctaansulfonylamide(N-methyl)acetaat;PFAS;ng/l;WNS12764;N-MeFOSAA;ng/l;NVT;OW;2355-31-9;;CONCTTE
+2424;PFC5asfzr;perfluorpentaan-1-sulfonzuur;PFAS;ng/l;WNS12762;PFC5asfzr;ng/l;NVT;OW;2706-91-4;;CONCTTE
+2425;PFC9asfzr;perfluornonaan-1-sulfonzuur;PFAS;ng/l;WNS12761;PFC9asfzr;ng/l;NVT;OW;68259-12-1;;CONCTTE
+2426;PFDoA;perfluordodecaanzuur;PFAS;ng/l;WNS12765;PFDoA;ng/l;NVT;OW;307-55-1;;CONCTTE
+2427;PFOSA;perfluoroctaansulfonamide;PFAS;ng/l;WNS12758;PFOSA;ng/l;NVT;OW;754-91-6;;CONCTTE
+2428;PFTDA;perfluortridecaanzuur;PFAS;ng/l;WNS12766;PFTDA;ng/l;NVT;OW;72629-94-8;;CONCTTE
+2429;PFTeDA;perfluortetradecaanzuur;PFAS;ng/l;WNS12767;PFTeDA;ng/l;NVT;OW;376-06-7;;CONCTTE
+2430;slinverPFHxS;som lineair en vertakte perfluorhexaansulfonzuur;PFAS;ng/l;WNS13542;slinverPFHxS;ng/l;NVT;OW; ;;CONCTTE
+2431;slinvertPFOA;som lineair en vertakte perfluoroctaanzuur;PFAS;ng/l;WNS13216;slinvertPFOA;ng/l;NVT;OW; ;;CONCTTE
+2432;sverttPFHxS;som vertakte PFHxS-isomeren;PFAS;ng/l;WNS12755;sverttPFHxS;ng/l;NVT;OW; ;;CONCTTE
+2433;sverttPFOA;som vertakte PFOA-isomeren;PFAS;ng/l;WNS13214;sverttPFOA;ng/l;NVT;OW; ;;CONCTTE
+2434;sverttPFOS;som vertakte PFOS-isomeren;PFAS;ng/l;WNS12756;sverttPFOS;ng/l;NVT;OW; ;;CONCTTE
