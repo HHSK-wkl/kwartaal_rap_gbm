@@ -8,6 +8,8 @@ embed-resources: true
 format:
   html: 
     image: "images/logo_website.png"
+    fig-format: svg
+    fig-width: 9
   # revealjs:
   #   # logo: "images/logo_website.png"
   #   logo: "images/hhsk750.jpg"
@@ -44,7 +46,15 @@ lang: nl
 
 -   In 2024 is er een nieuw meetpakket beschikbaar gekomen met lagere detectiegrenzen. Er zijn 3 extra monsters in februari waar dit meetpakket is gebruikt. Dit pakket is relatief klein (96 stoffen) maar door de lagere detectiegrenzen is de trefkans voor sommige stoffen groter.
 
--   Er zijn een paar dingen die opvallen met het nieuwe pakket. Op alle 3 de meetlocaties zijn de stoffen fipronil en piperonylbutoxide in normoverschrijdende concentraties aanwezig. Pyriproxyfen is op 2 van de 3 locaties normoverschrijdend aanwezig. Dat deze stoffen nu bij de eerste keer op meerdere plekken de norm overschrijden suggereert dat deze stoffen de norm regelmatig overschrijden, maar dat dat tot nu toe buiten beeld is gebleven.
+-   Er zijn een paar dingen die opvallen met het nieuwe pakket.
+
+    -   Op alle 3 de meetlocaties is piperonylbutoxide normoverschrijdend aanwezig.
+
+    -   Op alle 3 de meetlocaties is fipronil normoverschrijdend aanwezig.
+
+    -   Pyriproxyfen is op 2 van de 3 locaties normoverschrijdend aanwezig. \
+        \
+        Dat deze stoffen nu bij de eerste keer op meerdere plekken de norm overschrijden suggereert dat deze stoffen de norm regelmatig overschrijden, maar dat dat tot nu toe buiten beeld is gebleven.
 
 -   Het aantal verschillende stoffen dat de norm overschrijdt is in Q1 van 2024 het hoogste in een kwartaal sinds 2021. Dit komt mede door het gebruik van het nieuwe pakket.
 
