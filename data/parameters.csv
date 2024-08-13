@@ -781,6 +781,7 @@ parnr;par;parnaamlang;cluster;eenheid;wns;aquo_parcode;aquo_eenheid;aquo_hoedani
 9902;metlCl SmtlCl;metolachloor als S-metolachloor;Niet gebruiken;ug/l;WNS5886; ; ; ;OW; ;;CONCTTE
 508;IONBLS;Ionenbalans;Berekend;%;WNS10496; ;%;NVT;OW; ;;IONBLS
 1355;milbmcA4;milbemycin A4;Bestrijdingsmiddelen;ug/l;WNS11472;milbmcA4;ug/l;NVT;OW;51596-11-3;;CONCTTE
+2435;H-PFC12asfzr;1H,1H,2H,2H-perfluordodecaansulfonzuur (10:2 FTS);PFAS;ng/l;WNS13730;H-PFC12asfzr;ng/l;NVT;OW;120226-60-0;;CONCTTE
 1357;nebrn;neburon;Bestrijdingsmiddelen;ug/l;WNS9507;nebrn;ug/l;NVT;OW;555-37-3;;CONCTTE
 1358;spintrm;spinetoram (mix);Bestrijdingsmiddelen;ug/l;WNS13137;spintrm;ug/l;NVT;OW;935545-74-7;;CONCTTE
 9903;DClpp DClppP;dichloorprop als dichloorprop-P;Niet gebruiken;ug/l;WNS5718; ;ug/l;NVT;OW; ;;CONCTTE
