@@ -1,0 +1,39 @@
+color:
+  palette:
+    blauw: "#0067C6"
+    groen: "#76B900"
+    oranje: "#F9651F"
+    wit: "#FFFFFF"
+    donkerblauw: "#293173"
+    donkergroen: "#015F03"
+    # donkergrijs: "#555555"
+    donkergrijs: "#222222"
+    lichtoranje: "#FFBC80"
+    lichtgroen: "#CBDF74"
+    lichtblauw: "#8ED4dA"
+    lichtgrijs: "#777777"
+  background: wit
+  foreground: donkergrijs
+  primary: blauw
+  secondary: lichtgrijs
+  tertiary: oranje
+  
+  
+
+logo:
+  images:
+    logo-groot: "logo_hhsk_750.png"
+    logo-medium: "logo_hhsk_750.png"
+    logo-wit: "logo_hhsk_750_wit.png"
+  small: logo-wit
+  medium: logo-medium
+  large: logo-groot
+
+typography:
+#   fonts:
+#     - family: Ruda
+#       source: google
+#   base: Ruda
+#   headings: Ruda
+  # link:
+  #   color: oranje

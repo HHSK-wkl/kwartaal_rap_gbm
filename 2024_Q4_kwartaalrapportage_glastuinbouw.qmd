@@ -1,0 +1,155 @@
+---
+title: "Kwartaalrapportage glastuinbouw"
+subtitle: "Q4 2024"
+date: today
+# author: "HHSK - Johan van Tent"
+image: "images/logo_website.png"
+embed-resources: true
+brand: "brand/_brand.yml"
+format:
+  dashboard: 
+    # image: "images/logo_website.png"
+    fig-format: svg
+    fig-width: 9
+    fig-height: 5
+    fig-align: center
+    # grid:
+      # sidebar-width: 500px
+    #   body-width: 1000px
+  # revealjs:
+  #   # logo: "images/logo_website.png"
+  #   logo: "images/hhsk750.jpg"
+  #   # multiplex: true
+  #   fig-format: svg
+  #   progress: true
+  #   # mouse-wheel: true
+  #   theme: [default, css/custom.scss]
+  #   touch: true
+  #   smaller: true
+  #   auto-stretch: false
+execute:
+  echo: false
+  warning: false
+lang: nl
+# lightbox: auto # werkt niet in self-contained
+# format: 
+#   docx:
+#     reference-doc: "hhsk_stijl_quarto.docx"
+---
+
+```{r code}
+#| file: "R/CODE_glastuinbouw_Q4_2024.R"
+#| include: false
+#| cache: false
+```
+
+# {.sidebar width=400px}
+
+## Gewasbeschermingsmiddelen
+
+-   Er zijn in Q4  normoverschrijdingen. 
+
+-   Imidacloprid is ook verantwoordelijk voor de grootste toxische effecten. De chronische toxiciteit van difenoconazool is ook een terugkerend probleem.
+
+
+## Nutriënten
+
+-   De concentraties stikstof en fosfaat waren in Q4 in het glastuinbouwgebied vrij laag. 
+
+::: footer
+Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/).
+:::
+
+# Gewasbeschermingsmiddelen - tabellen
+
+## Tabellen {.tabset}
+
+### Overzichtstabel
+
+```{r tabel-overschrijdingen}
+##| title: "Overzichtstabel"
+
+gt::gt(tabel) %>% gt::cols_align(align = "right", columns = c(2:7)) %>% 
+  gt::fmt_percent(columns = 6:7, decimals = 1) %>% 
+  gt::sub_missing()
+```
+
+### Individuele metingen
+
+```{r tabel-overschrijdingen-meetwaarden}
+##| title: "Individuele metingen"
+tabel_meetwaarden
+
+```
+
+### Middelen
+
+```{r tabel-middelen}
+##| title: "Individuele metingen"
+tabel_middelen
+
+```
+
+# Gewasbeschermingsmiddelen - grafieken
+
+## {.tabset}
+
+### Acute toxiciteit
+
+```{r}
+##| title: "Acute toxiciteit"
+plot_mspaf_acuut
+```
+
+### Chronische toxiciteit
+
+```{r}
+##| title: "Chronische toxiciteit"
+plot_mspaf_chronisch
+```
+
+### Opgetelde overschrijdingsfactoren
+
+```{r plot-sno}
+##| title: "Gemiddelde totale overschrijdingsfactor"
+print(plot_sno)
+
+```
+
+### % boven norm
+
+```{r plot-perc-norm}
+##| title: "Percentage GBM-metingen boven norm"
+print(plot_perc_norm)
+
+```
+### Aantal boven norm
+
+```{r plot-aantal-norm}
+##| title: "Aantal GBM boven norm"
+print(plot_aantal_norm)
+
+```
+
+### Aantal per monster
+
+```{r plot-monster}
+##| title: "Aantal gewasbeschermingsmiddelen per monster"
+print(plot_monster)
+
+```
+
+# Fosfaat en stikstof
+
+
+## 
+
+```{r plot-n}
+#| title: Stikstof
+print(n_plot)
+```
+
+```{r plot-p}
+#| title: Fosfaat
+print(p_plot)
+```
