@@ -1,0 +1,157 @@
+---
+title: "Kwartaalrapportage glastuinbouw"
+subtitle: "Q2 & Q3 2024"
+date: today
+author: "HHSK - Johan van Tent"
+image: "images/logo_website.png"
+embed-resources: true
+format:
+  html: 
+    image: "images/logo_website.png"
+    fig-format: svg
+    fig-width: 9
+    fig-height: 5
+    fig-align: center
+    grid: 
+      body-width: 1000px
+  # revealjs:
+  #   # logo: "images/logo_website.png"
+  #   logo: "images/hhsk750.jpg"
+  #   # multiplex: true
+  #   fig-format: svg
+  #   progress: true
+  #   # mouse-wheel: true
+  #   theme: [default, css/custom.scss]
+  #   touch: true
+  #   smaller: true
+  #   auto-stretch: false
+execute:
+  echo: false
+  warning: false
+lang: nl
+# lightbox: auto # werkt niet in self-contained
+# format: 
+#   docx:
+#     reference-doc: "hhsk_stijl_quarto.docx"
+---
+
+```{r code}
+#| file: "R/CODE_glastuinbouw_Q2Q3_2024.R"
+#| include: false
+#| cache: false
+```
+
+::: {.panel-tabset .column-body-outset}
+# Gewasbeschermingsmiddelen
+
+### Beschrijving gewasbeschermingsmiddelen
+
+-   Er zijn in Q2 en Q3 een aantal opvallende normoverschrijdingen. Imidacloprid is meerdere malen aangetroffen in hoge concentraties. Dergelijke concentraties zijn sinds 2018 niet meer gemeten. Ook fipronil en piperonylbutoxide blijven naar voren komen als forse normoverschrijders. Deze twee stoffen zijn beter in beeld gekomen doordat we lager kunnen meten.
+
+-   Imidacloprid is ook verantwoordelijk voor de grootste toxische effecten. De chronische toxiciteit van difenoconazool is ook een terugkerend probleem.
+
+-   Een groot deel van de normoverschrijdingen wordt geconstateerd met het pakket met extra lage detectiegrenzen. Deze zouden met het gewone pakket waarschijnlijk grotendeels zijn gemist. Dit geeft het vermoeden dat de problemen met gewasbeschermingsmiddelen in het glastuinbouwgebied groter zijn dan tot nu toe bleek uit de metingen.
+
+::: {#met-en-zonder layout-ncol="2"}
+![](zonder_laag.jpg)
+
+![](met_laag.jpg)
+:::
+
+::: aside
+Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/).
+:::
+
+### GBM - Overzichtstabel {.scrollable .smaller}
+
+```{r tabel-overschrijdingen}
+
+
+gt::gt(tabel) %>% gt::cols_align(align = "right", columns = c(2:7)) %>% 
+  gt::fmt_percent(columns = 6:7, decimals = 1) %>% 
+  gt::sub_missing()
+
+```
+
+### GBM - Individuele metingen {.scrollable .smaller}
+
+```{r tabel-overschrijdingen-meetwaarden}
+tabel_meetwaarden
+  
+```
+
+### GBM - Acute toxiciteit
+
+```{r}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+#|   
+plot_mspaf_acuut
+```
+
+### GBM - Chronische toxiciteit
+
+```{r}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+plot_mspaf_chronisch
+```
+
+### GBM - Percentage boven de norm
+
+```{r plot-perc-norm}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+print(plot_perc_norm)
+
+```
+
+### GBM - Aantal stoffen boven de norm
+
+```{r plot-aantal-norm}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+print(plot_aantal_norm)
+
+```
+
+### GBM - Overschrijdingsfactoren
+
+```{r plot-sno}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+print(plot_sno)
+
+```
+
+### GBM - Aantal stoffen per monster
+
+```{r plot-monster}
+#| out-width: "80%"
+#| lightbox:
+#|   group: "gbm"
+print(plot_monster)
+
+```
+
+# Fosfaat en stikstof
+
+### Beschrijving nutriënten
+
+-   De concentraties stikstof en fosfaat waren in Q2 en Q3 in het glastuinbouwgebied vrij laag. De fosfaatconcentratie was in juni zelfs op hetzelfde niveau als elders in het gebied. Dit wijst erop dat de emissie van nutriënten uit het glastuinbouwgebied steeds verder afneemt.
+
+```{r plot-n}
+print(n_plot)
+```
+
+### Fosfaat
+
+```{r plot-p}
+print(p_plot)
+```
+:::
