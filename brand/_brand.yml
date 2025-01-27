@@ -29,7 +29,7 @@ logo:
   medium: logo-medium
   large: logo-groot
 
-typography:
+# typography:
 #   fonts:
 #     - family: Ruda
 #       source: google

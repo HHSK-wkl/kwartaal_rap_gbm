@@ -38,7 +38,7 @@ q_tekst <- as.character(tsibble::yearquarter(q_begin))
 
 # copy_data(c("fys_chem.rds", "meetpunten.csv", "parameters.csv", "normen.txt", "gbm_toxiciteit.xlsx"))
 # download_data(c("fys_chem.rds", "meetpunten.csv", "parameters.csv", "normen.txt"))
-# download_data(c("fys_chem.rds", "meetpunten.rds", "parameters.rds", "normen.rds", "gbm_toelating_werking.rds", "gbm_middelen.rds"))
+# HHSKwkl::download_data(c("fys_chem.rds", "meetpunten.rds", "parameters.rds", "normen.rds", "gbm_toelating_werking.rds", "gbm_middelen.rds"))
 fys_chem <- readRDS("data/fys_chem.rds")
 meetpunten <-readRDS("data/meetpunten.rds")
 parameters <- readRDS("data/parameters.rds")
@@ -251,7 +251,8 @@ plot_sno <-
   geom_col() +
   geom_text(aes(label = round(gem_factor)), y = 0.1, colour = "white", fontface = "bold", vjust = 0) +
   scale_fill_manual(values = c("grey60", hhskblauw)) +
-  scale_y_log10(expand = expansion(mult = c(0, 0.1))) +
+  # scale_y_log10(expand = expansion(mult = c(0, 0.1))) +
+  scale_y_continuous(limits = c(0, NA), expand = expansion(c(0, 0.1))) +
   labs(title = "Gemiddelde totale overschrijdingsfactor",
        subtitle = "per kwartaal - op logaritmische schaal",
        caption = "De totale overschrijdingsfactor is de som van alle overschrijdingsfactoren in een monster",
@@ -406,7 +407,7 @@ tabel_meetwaarden <-
          Overschrijdingsfactor = overschrijdingsfactor,
          `PAF acuut` = paf_acuut,
          `PAF chronisch` = paf_chronisch) %>%
-  DT::datatable(extensions = 'Buttons', rownames = FALSE,
+  DT::datatable(extensions = 'Buttons', rownames = FALSE, filter = "top",
                 options = list(dom = 'lfirtpB', buttons = c('csv', 'excel', 'pdf'), pageLength = 50)) %>%
   DT::formatRound(c(4), dec.mark = ",", digits = 3) %>%
   DT::formatRound(c(5), dec.mark = ",", digits = 1, mark = "" ) %>%
@@ -425,7 +426,7 @@ tabel_middelen <-
          Werking = aard_werking_middel
           ) %>% 
   DT::datatable(extensions = 'Buttons', rownames = FALSE, filter = "top",
-                options = list(dom = 'lfirtpB', buttons = c('csv', 'excel', 'pdf'), pageLength = 50))
+                options = list(dom = 'lirtpB', buttons = c('csv', 'excel', 'pdf'), pageLength = 50))
 
 # data_n %>%
 #   group_by(kwartaal_c, laatst) %>%

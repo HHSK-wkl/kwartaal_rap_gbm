@@ -45,14 +45,17 @@ lang: nl
 
 # {.sidebar width=400px}
 
-## Gewasbeschermingsmiddelen
+## Toelichting {{< meta subtitle >}}
 
--   Er zijn in Q4  normoverschrijdingen. 
+### Gewasbeschermingsmiddelen
 
--   Imidacloprid is ook verantwoordelijk voor de grootste toxische effecten. De chronische toxiciteit van difenoconazool is ook een terugkerend probleem.
+-   Er zijn in Q4 9 stoffen met normoverschrijdingen. Voor imidacloprid, piperonyl-butoxide en abamectine lagen deze ruim 10 keer boven de norm.
+
+- De chronische toxiciteit in Q4 is in alle monsters behoorlijk hoog. Opvallend is dat diverse stoffen met een hoge chronische toxiciteit de normen niet overschrijden.
 
 
-## Nutriënten
+
+### Nutriënten
 
 -   De concentraties stikstof en fosfaat waren in Q4 in het glastuinbouwgebied vrij laag. 
 
