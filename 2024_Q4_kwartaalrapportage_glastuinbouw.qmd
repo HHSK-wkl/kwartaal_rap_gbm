@@ -5,7 +5,7 @@ date: today
 # author: "HHSK - Johan van Tent"
 image: "images/logo_website.png"
 embed-resources: true
-brand: "brand/_brand.yml"
+brand: "brand_dashboard/_brand.yml"
 format:
   dashboard: 
     # image: "images/logo_website.png"
@@ -82,6 +82,14 @@ gt::gt(tabel) %>% gt::cols_align(align = "right", columns = c(2:7)) %>%
 ```{r tabel-overschrijdingen-meetwaarden}
 ##| title: "Individuele metingen"
 tabel_meetwaarden
+
+```
+
+### Meetlocaties
+
+```{r kaart-meetlocaties}
+##| title: "Meetlocaties"
+kaart_meetlocaties
 
 ```
 

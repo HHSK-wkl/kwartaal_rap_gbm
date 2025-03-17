@@ -10,6 +10,7 @@ library(gt)
 library(glue)
 library(ggbeeswarm)
 library(scales)
+library(sf)
 # library(tsibble)
 
 # Other options
@@ -51,7 +52,7 @@ toelatingen <- readRDS("data/gbm_toelating_werking.rds")
 middelen <- readRDS("data/gbm_middelen.rds")
   
 
-# ws_grens <- sf::st_read("data/ws_grens.gpkg", crs = 28992)
+ws_grens <- sf::st_read("data/ws_grens.gpkg", crs = 28992) %>% st_transform(crs = 4326)
 
 gbm_meetpunten <- 
   meetpunten %>% 
@@ -409,7 +410,7 @@ tabel_meetwaarden <-
          `PAF chronisch` = paf_chronisch) %>%
   DT::datatable(extensions = 'Buttons', rownames = FALSE, filter = "top",
                 options = list(dom = 'lfirtpB', buttons = c('csv', 'excel', 'pdf'), pageLength = 50)) %>%
-  DT::formatRound(c(4), dec.mark = ",", digits = 3) %>%
+  DT::formatRound(c(4), dec.mark = ",", digits = 4) %>%
   DT::formatRound(c(5), dec.mark = ",", digits = 1, mark = "" ) %>%
   DT::formatPercentage(c(6, 7), dec.mark = ",", digits = 1)
 
@@ -505,6 +506,13 @@ p_plot  <-
   guides(colour = FALSE) +
   theme(plot.margin = margin(5.5, 95, 5.5, 5.5, unit = "pt"))
 
-
+kaart_meetlocaties <- 
+  meetpunten %>% 
+  semi_join(data_gbm) %>% 
+  st_as_sf(coords = c("x", "y"), crs = 28992) %>% 
+  st_transform(crs = 4326) %>% 
+  basiskaart() %>% 
+  addCircleMarkers(label = ~mp, fillOpacity = 1, stroke = FALSE, labelOptions = labelOptions(noHide = TRUE))
+  
 
 
