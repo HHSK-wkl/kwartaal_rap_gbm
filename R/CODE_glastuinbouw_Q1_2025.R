@@ -511,7 +511,7 @@ p_plot  <-
 
 kaart_meetlocaties <- 
   meetpunten %>% 
-  semi_join(data_gbm) %>% 
+  semi_join(filter(data_gbm, laatst)) %>% 
   st_as_sf(coords = c("x", "y"), crs = 28992) %>% 
   st_transform(crs = 4326) %>% 
   basiskaart() %>% 
