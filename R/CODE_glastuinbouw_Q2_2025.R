@@ -52,7 +52,7 @@ toelatingen <- readRDS("data/gbm_toelating_werking.rds")
 middelen <- readRDS("data/gbm_middelen.rds")
   
 
-ws_grens <- sf::st_read("data/ws_grens.gpkg", crs = 28992) %>% st_transform(crs = 4326)
+# ws_grens <- sf::st_read("data/ws_grens.gpkg", crs = 28992) %>% st_transform(crs = 4326)
 
 gbm_meetpunten <- 
   meetpunten %>% 
@@ -200,7 +200,7 @@ plot_perc_norm <-
   geom_text(aes(label = glue("{n_ov}
                              van
                              {n}")), y = 0.0005, colour = "white", fontface = "bold", vjust = 0) +
-  scale_fill_manual(values = c("grey60", hhskblauw)) +
+  scale_fill_manual(values = c("grey60", blauw)) +
   scale_y_continuous(limits = c(0, NA), expand = expansion(c(0, 0.1)),
                      labels = function(x) scales::percent(x, accuracy = 0.10, decimal.mark = ",")) +
   # scale_x_date(date_breaks = "year", date_labels = "%Y") +
@@ -211,7 +211,7 @@ plot_perc_norm <-
   theme(plot.subtitle = element_text(face = "plain"),
         panel.grid.major.x = element_blank(),
         axis.ticks.x = element_blank()) +
-  guides(fill = FALSE)
+  guides(fill = "none")
 
 plot_aantal_norm <-
   data_gbm %>%
@@ -223,7 +223,7 @@ plot_aantal_norm <-
   ggplot(aes(kwartaal_c, overschrijdende_stoffen, fill = laatst)) +
   geom_col() +
   geom_text(aes(label = overschrijdende_stoffen), y = 0.5, colour = "white", fontface = "bold", vjust = 0) +
-  scale_fill_manual(values = c("grey60", hhskblauw)) +
+  scale_fill_manual(values = c("grey60", blauw)) +
   scale_y_continuous(limits = c(0,NA), expand = expansion(c(0, 0.1))) +
   # scale_x_date(date_breaks = "year", date_labels = "%Y") +
   labs(title = "Aantal gewasbeschermingsmiddelen boven norm",
@@ -237,7 +237,7 @@ plot_aantal_norm <-
 
 
 
-# plot_sno <-
+plot_sno <-
   data_gbm %>%
   left_join(normen, by = "parnr") %>%
   filter(is.na(detectiegrens)) %>%
@@ -248,11 +248,12 @@ plot_aantal_norm <-
   group_by(kwartaal_c, laatst) %>%
   summarise(gem_factor = mean(som_factor, na.rm = TRUE)) %>%
 
-  ggplot(aes(kwartaal_c, gem_factor, fill = laatst)) +
+  ggplot(aes(kwartaal_c, gem_factor, color = laatst)) +
   # geom_col() +
-  geom_point(color = blauw, size = 5) +
+  geom_point(size = 5) +
   geom_text(aes(label = round(gem_factor)), y = 0.1, colour = "white", fontface = "bold", vjust = 0) +
-  scale_fill_manual(values = c("grey60", hhskblauw)) +
+  # scale_fill_manual(values = c("grey60", blauw)) +
+  scale_color_manual(values = c(grijs, blauw)) +
   scale_y_log10(expand = expansion(mult = c(0, 0.1)), limits = c(3, NA), breaks = scales::log_breaks(6)) +
   # scale_y_continuous(limits = c(0, NA), expand = expansion(c(0, 0.1))) +
   # coord_cartesian(ylim = c(0, 500)) +
@@ -264,7 +265,7 @@ plot_aantal_norm <-
   theme(plot.subtitle = element_text(face = "plain"),
         # panel.grid.major.x = element_blank(),
         axis.ticks.x = element_blank()) +
-  guides(fill = FALSE) +
+  guides(fill = "none", color = "none") +
   # geom_vline(xintercept = ymd(20200101, 20190101, 20180101), colour = "grey70", linetype = "dashed") +
   NULL
 
@@ -277,7 +278,7 @@ plot_aantal <-
   ggplot(aes(kwartaal_c, n_stoffen, fill = laatst)) +
   geom_col() +
   geom_text(aes(label = n_stoffen), y = 1, colour = "white", fontface = "bold", vjust = 0) +
-  scale_fill_manual(values = c("grey60", hhskblauw)) +
+  scale_fill_manual(values = c("grey60", blauw)) +
   scale_y_continuous(limits = c(0, NA), expand = expansion(c(0, 0.1))) +
   # scale_x_date(date_breaks = "year", date_labels = "%Y") +
   labs(title = "Aantal aangetroffen gewasbeschermingsmiddelen",
@@ -301,7 +302,7 @@ plot_monster <-
   ggplot(aes(kwartaal_c, gem_per_monster, fill = laatst)) +
   geom_col() +
   geom_text(aes(label = round(gem_per_monster, 1)), y = 0.5, colour = "white", fontface = "bold", vjust = 0) +
-  scale_fill_manual(values = c("grey60", hhskblauw)) +
+  scale_fill_manual(values = c("grey60", blauw)) +
   scale_y_continuous(limits = c(0, NA), expand = expansion(c(0, 0.1))) +
   # scale_x_date(date_breaks = "year", date_labels = "%Y") +
   labs(title = "Aantal gewasbeschermingsmiddelen per monster",
@@ -366,7 +367,7 @@ tabel_basis <-
   ungroup() %>% 
   mutate(gem_factor = ifelse(is.na(gem_factor), 0, round(gem_factor, digits = 1)),
          max_factor = ifelse(is.na(max_factor), 0, round(max_factor, digits = 1))) %>%
-  arrange(desc(n_norm), desc(gem_factor)) %>%
+  arrange(desc(max_factor)) %>%
   filter(n_norm > 0 | n_tox > 0)
 
 tabel <- tabel_basis %>% 
@@ -400,7 +401,7 @@ tabel_meetwaarden <-
                                  ssd_data = toxiciteit,
                                  type_paf = "chronisch")) %>%
   filter(overschrijding | paf_acuut > 0.005 | paf_chronisch > 0.005) %>%
-  arrange(desc(paf_acuut)) %>%
+  arrange(desc(overschrijdingsfactor)) %>%
   # mutate(paf_acuut = scales::percent(paf_acuut, decimal.mark = ",", accuracy = 0.1),
          # paf_chronisch = scales::percent(paf_chronisch, decimal.mark = ",", accuracy = 0.1)) %>%
   select(Stofnaam = parnaam,
@@ -437,7 +438,7 @@ tabel_middelen <-
 #   ggplot(aes(kwartaal_c, gem_n, fill = laatst)) +
 #   geom_col() +
 #
-#   scale_fill_manual(values = c("grey60", hhskblauw)) +
+#   scale_fill_manual(values = c("grey60", blauw)) +
 #   scale_y_continuous(limits = c(0,15), expand = c(0, 0)) +
 #   labs(title = "Gemiddelde stikstofconcentratie",
 #        subtitle = "per kwartaal",
@@ -471,7 +472,7 @@ n_plot <-
        subtitle = "Glastuinbouwgebied vs. overige gebieden",
        colour = "",
        caption = glue("De grijs gemarkeerde zone geeft {q_tekst} aan")) +
-  scale_colour_manual(values = c("indianred3", hhskblauw), labels = c("Glastuinbouw", "Overig")) +
+  scale_colour_manual(values = c("indianred3", blauw), labels = c("Glastuinbouw", "Overig")) +
   scale_x_date(breaks = scales::date_breaks(width = "1 year"), date_labels = "%Y") +
   hhskthema() +
   theme(plot.subtitle = element_text(size = 9)) +
@@ -501,7 +502,7 @@ p_plot  <-
        subtitle = "Glastuinbouwgebied vs. overige gebieden",
        colour = "",
        caption = glue("De grijs gemarkeerde zone geeft {q_tekst} aan")) +
-  scale_colour_manual(values = c("indianred3", hhskblauw), labels = c("Glastuinbouw", "Overig")) +
+  scale_colour_manual(values = c("indianred3", blauw), labels = c("Glastuinbouw", "Overig")) +
   scale_x_date(breaks = scales::date_breaks(width = "1 year"), date_labels = "%Y") +
   hhskthema() +
   theme(plot.subtitle = element_text(size = 9)) +

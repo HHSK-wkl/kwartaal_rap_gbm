@@ -33,6 +33,8 @@ lang: nl
 ### Gewasbeschermingsmiddelen
 
 - Er zijn in Q2 10 stoffen met normoverschrijdingen. 
+- De grootste normoverschrijding wordt veroorzaakt door azoxystrobine
+
 
 
 
@@ -41,7 +43,9 @@ lang: nl
 -   De concentraties stikstof en fosfaat zijn in Q2 van 2025 erg hoog. Dit komt doordat in Lansingerland zowel langs de Groendalseweg [(S_1213)](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/wkl_gegevens_op_kaart/S_1213.html){target="_blank"} als langs de Warmoeziersweg [(S_1218)](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/wkl_gegevens_op_kaart/S_1218.html){target="_blank"} zeer hoge concentraties stikstof en fosfaat zijn gemeten. 
 
 ::: footer
-Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/).
+Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/){target="_blank"}.
+
+Zie ook [Toxiciteit gewasbeschermiddelen](https://hhsk.shinyapps.io/toxiciteit_gbm/){target="_blank"} voor meer informatie over toxiciteit, normen en toelatingen per stof.
 :::
 
 # Gewasbeschermingsmiddelen - tabellen
@@ -66,7 +70,7 @@ tabel_meetwaarden
 
 ```
 
-### Meetlocaties
+### Meetlocaties GBM
 
 ```{r kaart-meetlocaties}
 ##| title: "Meetlocaties"
