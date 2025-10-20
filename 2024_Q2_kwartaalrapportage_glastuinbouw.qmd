@@ -9,7 +9,10 @@ format:
   html: 
     image: "images/logo_website.png"
     fig-format: svg
-    fig-width: 9
+    fig-width: 10
+    fig-align: center
+    grid: 
+      body-width: 1000px
   # revealjs:
   #   # logo: "images/logo_website.png"
   #   logo: "images/hhsk750.jpg"
@@ -42,21 +45,17 @@ lang: nl
 
 ### Beschrijving gewasbeschermingsmiddelen
 
--   ~~Twee opvallende normoverschrijdende stoffen zijn piperonyl-butoxide (843x en 87x) en spiromesifen (64x).~~
+-   De meest normoverschrijdingen in Q2 zijn relatief gering. Piperonyl-butoxide geeft wel grote normomverschrijdingen.
 
--   ~~In 2024 is er een nieuw meetpakket beschikbaar gekomen met lagere detectiegrenzen. Er zijn 3 extra monsters in februari waar dit meetpakket is gebruikt. Dit pakket is relatief klein (96 stoffen) maar door de lagere detectiegrenzen is de trefkans voor sommige stoffen groter.~~
+-   Abamactine en difenoconazool geven de grootste toxische effecten. Bij abamectine is er op detectiegrensniveau al een groot effect. dat beketent dat de toxische effecten van abamectine mogelijk in veel gevallen buiten beeld blijven.
 
--   ~~Er zijn een paar dingen die opvallen met het nieuwe pakket.~~
+-   Piperonyl-butoxide is het vaakst normoverschrijdend aangetroffen en ook met de hoogste normoverschrijdingen. Met het pakket met extra lage detectiegrenzen is deze stof in alle monsters en op alle locaties tot nu toe normoverschrijdend aangetroffen.
 
-    -   ~~Op alle 3 de meetlocaties is piperonylbutoxide normoverschrijdend aanwezig.~~
+-   Fipronil duikt met het pakket met extra lage detectiegrenzen ook vaak op als nieuwe normoverschrijdende stof.
 
-    -   ~~Op alle 3 de meetlocaties is fipronil normoverschrijdend aanwezig.~~
+-   17 van de 19 normoverschrijdingen zijn in Q2 geconstateerd met het pakket met extra lage detectiegrenzen. Deze zouden met het gewone pakket waarschijnlijk grotendeels zijn gemist.
 
-    -   ~~Pyriproxyfen is op 2 van de 3 locaties normoverschrijdend aanwezig. \
-        \
-        Dat deze stoffen nu bij de eerste keer op meerdere plekken de norm overschrijden suggereert dat deze stoffen de norm regelmatig overschrijden, maar dat dat tot nu toe buiten beeld is gebleven.~~
-
--   ~~Het aantal verschillende stoffen dat de norm overschrijdt is in Q1 van 2024 het hoogste in een kwartaal sinds 2021. Dit komt mede door het gebruik van het nieuwe pakket.~~
+-   Positief is dat imidacloprid nog steeds afneemt en steeds minder vaak de normen overschrijdt.
 
 ::: aside
 Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/).
@@ -124,10 +123,7 @@ print(plot_monster)
 
 ### Beschrijving nutriënten
 
--   ~~De stikstofconcentraties in het glastuinbouwgebied nam aan het eind van Q1 weer toe.~~
--   ~~De fosfaatconcentratie nam aan het begin van 2024 weer toe. Een positieve ontwikkeling is dat er de laatste jaren een duidelijker seizoenspatroon is te zien. Dat betekent dat de fosfaatconcentratie minder wordt beïnvloed door directe emissies.~~
-
-### Stikstof
+-   De concentraties stikstof en fosfaat waren in Q2 in het glastuinbouwgebied vrij laag. De fosfaatconcentratie was in juni zelfs op hetzelfde niveau als elders in het gebied. Dit wijst erop dat de emissie van nutriënten uit het glastuinbouwgebied steeds verder afneemt.
 
 ```{r plot-n}
 print(n_plot)
