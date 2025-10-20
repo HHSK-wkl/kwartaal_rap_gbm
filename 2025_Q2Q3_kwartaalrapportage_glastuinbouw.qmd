@@ -1,0 +1,157 @@
+---
+title: "Kwartaalrapportage glastuinbouw"
+subtitle: "Q2 en Q3 2025"
+date: today
+# author: "HHSK - Johan van Tent"
+# image: "images/logo_wit.png"
+embed-resources: true
+brand: "brand/_brand.yml"
+format:
+  dashboard: 
+    logo: "images/logo_wit.png"
+    # fig-format: svg
+    fig-width: 9
+    fig-height: 5
+    fig-align: center
+execute:
+  echo: false
+  warning: false
+lang: nl
+include-in-header:
+  - text: |
+      <link rel = "shortcut icon" href = "brand/favicon.svg" />
+knitr:
+  opts_chunk:
+    dev: "ragg_png"
+# lightbox: auto # werkt niet in self-contained
+---
+
+```{r code}
+#| file: "R/CODE_glastuinbouw_Q2Q3_2025.R"
+#| include: false
+#| cache: false
+```
+
+# {.sidebar width=400px}
+
+## Toelichting {{< meta subtitle >}}
+
+### Gewasbeschermingsmiddelen
+
+- Er zijn in Q2 en Q3 12 stoffen met normoverschrijdingen gemeten. 
+- De grootste normoverschrijding wordt veroorzaakt door azoxystrobine met 37x.
+- Acetamiprid was de stof met de hoogste acute toxiciteit (3,7%)
+- Een zeer hoge chronische toxiciteit is gemeten Voor azoxystrobin (14,9%) en difenoconazool (11,9%).
+
+
+### Nutriënten
+
+-   De concentraties stikstof en fosfaat zijn in Q2 en Q3 van 2025 erg hoog. Dit komt doordat in Lansingerland zowel langs de Groendalseweg [(S_1213)](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/wkl_gegevens_op_kaart/S_1213.html){target="_blank"} als langs de Warmoeziersweg [(S_1218)](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/wkl_gegevens_op_kaart/S_1218.html){target="_blank"} zeer hoge concentraties stikstof en fosfaat zijn gemeten. 
+
+::: footer
+Zie voor een uitgebreider overzicht van alle metingen de [Rapportage gewasbeschermingsmiddelen HHSK](https://www.schielandendekrimpenerwaard.nl/kaart/waterkwaliteit/waterkwaliteitsrapportages/GBM_rapportage/){target="_blank"}.
+
+Zie ook [Toxiciteit gewasbeschermiddelen](https://hhsk.shinyapps.io/toxiciteit_gbm/){target="_blank"} voor meer informatie over toxiciteit, normen en toelatingen per stof.
+:::
+
+# Gewasbeschermingsmiddelen - tabellen
+
+## Tabellen {.tabset}
+
+### Overzichtstabel
+
+```{r tabel-overschrijdingen}
+##| title: "Overzichtstabel"
+
+gt::gt(tabel) %>% gt::cols_align(align = "right", columns = c(2:7)) %>% 
+  gt::fmt_percent(columns = 6:7, decimals = 1) %>% 
+  gt::sub_missing()
+```
+
+### Individuele metingen
+
+```{r tabel-overschrijdingen-meetwaarden}
+##| title: "Individuele metingen"
+tabel_meetwaarden
+
+```
+
+### Meetlocaties GBM
+
+```{r kaart-meetlocaties}
+##| title: "Meetlocaties"
+kaart_meetlocaties
+
+```
+
+### Toelating middelen
+
+```{r tabel-middelen}
+##| title: "Individuele metingen"
+tabel_middelen
+
+```
+
+# Gewasbeschermingsmiddelen - grafieken
+
+## {.tabset}
+
+### Acute toxiciteit
+
+```{r}
+##| title: "Acute toxiciteit"
+plot_mspaf_acuut
+```
+
+### Chronische toxiciteit
+
+```{r}
+##| title: "Chronische toxiciteit"
+plot_mspaf_chronisch
+```
+
+### Opgetelde overschrijdingsfactoren
+
+```{r plot-sno}
+##| title: "Gemiddelde totale overschrijdingsfactor"
+print(plot_sno)
+
+```
+
+### % boven norm
+
+```{r plot-perc-norm}
+##| title: "Percentage GBM-metingen boven norm"
+print(plot_perc_norm)
+
+```
+### Aantal boven norm
+
+```{r plot-aantal-norm}
+##| title: "Aantal GBM boven norm"
+print(plot_aantal_norm)
+
+```
+
+### Aantal per monster
+
+```{r plot-monster}
+##| title: "Aantal gewasbeschermingsmiddelen per monster"
+print(plot_monster)
+
+```
+
+# Fosfaat en stikstof
+
+
+## 
+
+```{r plot-n}
+#| title: Stikstof
+print(n_plot)
+```
+
+```{r plot-p}
+#| title: Fosfaat
+print(p_plot)
+```
